@@ -1,252 +1,197 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <meta charset="utf-8">
-  
-  
-  <title>Hexo</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta property="og:type" content="website">
-<meta property="og:title" content="Hexo">
+<!DOCTYPE html><html lang="en" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>Zysun's blog - to make progress happen</title><meta name="author" content="Ziyu Sun"><meta name="copyright" content="Ziyu Sun"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta property="og:type" content="website">
+<meta property="og:title" content="Zysun&#39;s blog">
 <meta property="og:url" content="http://example.com/index.html">
-<meta property="og:site_name" content="Hexo">
+<meta property="og:site_name" content="Zysun&#39;s blog">
 <meta property="og:locale" content="en_US">
-<meta property="article:author" content="John Doe">
+<meta property="og:image" content="https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png">
+<meta property="article:author" content="Ziyu Sun">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png"><link rel="shortcut icon" href="/img/favicon.png"><link rel="canonical" href="http://example.com/index.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox/fancybox.min.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = {
+  root: '/',
+  algolia: undefined,
+  localSearch: undefined,
+  translate: undefined,
+  noticeOutdate: undefined,
+  highlight: {"plugin":"highlighjs","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false},
+  copy: {
+    success: 'Copy successfully',
+    error: 'Copy error',
+    noSupport: 'The browser does not support'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  dateSuffix: {
+    just: 'Just',
+    min: 'minutes ago',
+    hour: 'hours ago',
+    day: 'days ago',
+    month: 'months ago'
+  },
+  copyright: undefined,
+  lightbox: 'fancybox',
+  Snackbar: undefined,
+  source: {
+    justifiedGallery: {
+      js: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery/dist/fjGallery.min.js',
+      css: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery/dist/fjGallery.min.css'
+    }
+  },
+  isPhotoFigcaption: false,
+  islazyload: false,
+  isAnchor: false,
+  percent: {
+    toc: true,
+    rightside: false,
+  },
+  autoDarkmode: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: 'Zysun\'s blog',
+  isPost: false,
+  isHome: true,
+  isHighlightShrink: false,
+  isToc: false,
+  postUpdate: '2023-09-25 22:41:52'
+}</script><noscript><style type="text/css">
+  #nav {
+    opacity: 1
+  }
+  .justified-gallery img {
+    opacity: 1
+  }
+
+  #recent-posts time,
+  #post-meta time {
+    display: inline !important
+  }
+</style></noscript><script>(win=>{
+    win.saveToLocal = {
+      set: function setWithExpiry(key, value, ttl) {
+        if (ttl === 0) return
+        const now = new Date()
+        const expiryDay = ttl * 86400000
+        const item = {
+          value: value,
+          expiry: now.getTime() + expiryDay,
+        }
+        localStorage.setItem(key, JSON.stringify(item))
+      },
+
+      get: function getWithExpiry(key) {
+        const itemStr = localStorage.getItem(key)
+
+        if (!itemStr) {
+          return undefined
+        }
+        const item = JSON.parse(itemStr)
+        const now = new Date()
+
+        if (now.getTime() > item.expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return item.value
+      }
+    }
   
-    <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
+    win.getScript = url => new Promise((resolve, reject) => {
+      const script = document.createElement('script')
+      script.src = url
+      script.async = true
+      script.onerror = reject
+      script.onload = script.onreadystatechange = function() {
+        const loadState = this.readyState
+        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+        script.onload = script.onreadystatechange = null
+        resolve()
+      }
+      document.head.appendChild(script)
+    })
   
+    win.getCSS = (url,id = false) => new Promise((resolve, reject) => {
+      const link = document.createElement('link')
+      link.rel = 'stylesheet'
+      link.href = url
+      if (id) link.id = id
+      link.onerror = reject
+      link.onload = link.onreadystatechange = function() {
+        const loadState = this.readyState
+        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+        link.onload = link.onreadystatechange = null
+        resolve()
+      }
+      document.head.appendChild(link)
+    })
   
-    <link rel="shortcut icon" href="/favicon.png">
-  
-  
+      win.activateDarkMode = function () {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      win.activateLightMode = function () {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+      const t = saveToLocal.get('theme')
     
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/typeface-source-code-pro@0.0.71/index.min.css">
-
-  
-  
-<link rel="stylesheet" href="/css/style.css">
-
-  
-    
-<link rel="stylesheet" href="/fancybox/jquery.fancybox.min.css">
-
-  
-  
-<meta name="generator" content="Hexo 6.3.0"></head>
-
-<body>
-  <div id="container">
-    <div id="wrap">
-      <header id="header">
-  <div id="banner"></div>
-  <div id="header-outer" class="outer">
-    <div id="header-title" class="inner">
-      <h1 id="logo-wrap">
-        <a href="/" id="logo">Hexo</a>
-      </h1>
-      
-    </div>
-    <div id="header-inner" class="inner">
-      <nav id="main-nav">
-        <a id="main-nav-toggle" class="nav-icon"><span class="fa fa-bars"></span></a>
+          if (t === 'dark') activateDarkMode()
+          else if (t === 'light') activateLightMode()
         
-          <a class="main-nav-link" href="/">Home</a>
-        
-          <a class="main-nav-link" href="/archives">Archives</a>
-        
-      </nav>
-      <nav id="sub-nav">
-        
-        
-          <a class="nav-icon" href="/atom.xml" title="RSS Feed"><span class="fa fa-rss"></span></a>
-        
-        <a class="nav-icon nav-search-btn" title="Search"><span class="fa fa-search"></span></a>
-      </nav>
-      <div id="search-form-wrap">
-        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://example.com"></form>
-      </div>
-    </div>
-  </div>
-</header>
-
-      <div class="outer">
-        <section id="main">
-  
-    <article id="post-MatrixTransformationInNeRF" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
-  <div class="article-meta">
-    <a href="/2023/09/25/MatrixTransformationInNeRF/" class="article-date">
-  <time class="dt-published" datetime="2023-09-25T13:46:19.000Z" itemprop="datePublished">2023-09-25</time>
-</a>
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
     
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="p-name article-title" href="/2023/09/25/MatrixTransformationInNeRF/">NeRF中的视角矩阵变换</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="e-content article-entry" itemprop="articleBody">
-      
-        <h1 id="NeRF中的视角变换"><a href="#NeRF中的视角变换" class="headerlink" title="NeRF中的视角变换"></a>NeRF中的视角变换</h1><p>为了深刻理解NeRF，基础的图形学知识是必要的。这里结合文章<a href="#refer-anchor-1"><sup>1</sup></a>和代码<a href="#refer-anchor-1"><sup>2</sup></a>对NeRF中的关于视角变换的图形学知识做一个总结和归纳。NeRF中使用的视图变换和Games101中讲述的略有差异，原因可能是传统的MVP-视口变换的方法适用于基于显示表达的场景，而在NeRF中采用隐式表达的方式描述3D物体。但是两者总体的框架是一致的，我总结为三种坐标系（世界坐标系、相机坐标系和屏幕坐标系）的建模和相互转化。</p>
-<h3 id="世界坐标系-World-Coordinates"><a href="#世界坐标系-World-Coordinates" class="headerlink" title="世界坐标系 World Coordinates"></a>世界坐标系 World Coordinates</h3><p>世界坐标系，是最直观的、我们生活中直接使用的坐标系。在样例代码中，小黄鸭（代码中是黄色挖掘机）基本处于坐标原点的位置，而最终生成的结果可以看成是相机在z轴上方对小黄鸭进行环绕拍摄：</p>
-<img src="../image/WorldCoordinates.png" style="zoom: 50%;" />
-
-
-
-<h3 id="相机坐标系-Camera-Coordinates"><a href="#相机坐标系-Camera-Coordinates" class="headerlink" title="相机坐标系 Camera Coordinates"></a>相机坐标系 Camera Coordinates</h3><p>在相机坐标系中，相机的成像平面处于X-Y平面上，且中心点与原点重合、垂直轴和Y轴重合。相机处于z轴（正方向）上，朝向-z方向，距离原点距离为focal。这与Games101中对相机坐标系的定义不同。</p>
-<p><img src="/../image/CameraCoordinates.png"></p>
-<h3 id="屏幕坐标系-Screen-Coordinates"><a href="#屏幕坐标系-Screen-Coordinates" class="headerlink" title="屏幕坐标系 Screen Coordinates"></a>屏幕坐标系 Screen Coordinates</h3><p>屏幕坐标系是一个二维的坐标系，用于摆放图片。该坐标系和相机坐标系中的X-Y平面的主要区别在于原点的位置和Y轴的方向。</p>
-<h3 id=""><a href="#" class="headerlink" title=""></a><img src="/../image/ScreenCoordinates.png"></h3><p>下面对NeRF的算法流程和其中涉及的坐标系变换做一个总结。</p>
-<h5 id="数据集读入"><a href="#数据集读入" class="headerlink" title="数据集读入"></a>数据集读入</h5><p>在读入相机的外参之后，就涉及对相机内参的计算。相机内参的计算可以看作在相机坐标系中进行，根据上图中给出的几何关系，很容易理解代码中对于focal的计算。</p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">focal = <span class="number">.5</span> * W / np.tan(<span class="number">.5</span> * camera_angle_x)</span><br></pre></td></tr></table></figure>
-
-<p>在这之后，我们需要生成最终生成的视角的相机位置信息。这个过程是在世界坐标系中进行的。</p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">def</span> <span class="title function_">pose_spherical</span>(<span class="params">theta, phi, radius</span>):</span><br><span class="line">    <span class="comment"># phi = -30, radius = 4, theta 等分-180~180</span></span><br><span class="line">    c2w = trans_t(radius)</span><br><span class="line">    c2w = rot_phi(phi/<span class="number">180.</span>*np.pi) @ c2w</span><br><span class="line">    c2w = rot_theta(theta/<span class="number">180.</span>*np.pi) @ c2w</span><br><span class="line">    c2w = torch.Tensor(np.array([[-<span class="number">1</span>,<span class="number">0</span>,<span class="number">0</span>,<span class="number">0</span>],[<span class="number">0</span>,<span class="number">0</span>,<span class="number">1</span>,<span class="number">0</span>],[<span class="number">0</span>,<span class="number">1</span>,<span class="number">0</span>,<span class="number">0</span>],[<span class="number">0</span>,<span class="number">0</span>,<span class="number">0</span>,<span class="number">1</span>]])) @ c2w</span><br><span class="line">    <span class="keyword">return</span> c2w</span><br></pre></td></tr></table></figure>
-
-<p>根据简单的数学知识，可以计算出最终生成的相机位置在于小黄鸭的头顶位置，环绕小黄鸭一周，这与生成的视频看到的效果是一致的。</p>
-<h5 id="初始化NeRF模型"><a href="#初始化NeRF模型" class="headerlink" title="初始化NeRF模型"></a>初始化NeRF模型</h5><p>初始化模型不涉及坐标系的变换。</p>
-<h5 id="训练过程"><a href="#训练过程" class="headerlink" title="训练过程"></a>训练过程</h5><p>在每一个epoch中，NeRF选择训练集中的一张照片（400*400个像素），随机选择1024个像素射出光线进行对神经辐射场的训练。因此第一个任务是计算这些光线的出射点（rays_o）和光线的方向（rays_d）。</p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">def</span>  <span class="title function_">get_rays</span>(<span class="params">H, W, K, c2w</span>):</span><br><span class="line">    <span class="comment"># W = H = 400</span></span><br><span class="line">    i, j = torch.meshgrid(torch.linspace(<span class="number">0</span>, W-<span class="number">1</span>, W), torch.linspace(<span class="number">0</span>, H-<span class="number">1</span>, H))  </span><br><span class="line">    i = i.t()</span><br><span class="line">    j = j.t()</span><br></pre></td></tr></table></figure>
-
-<p>这一段利用meshgrid()函数生成二维网格，此操作可以视为在屏幕坐标系中进行。</p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">dirs = torch.stack([(i-K[<span class="number">0</span>][<span class="number">2</span>])/K[<span class="number">0</span>][<span class="number">0</span>], -(j-K[<span class="number">1</span>][<span class="number">2</span>])/K[<span class="number">1</span>][<span class="number">1</span>], -torch.ones_like(i)], -<span class="number">1</span>)</span><br></pre></td></tr></table></figure>
-
-<p>这一段利用内参矩阵将二维坐标转化为三维坐标，也即从屏幕坐标系转化为相机坐标系</p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">rays_d = torch.<span class="built_in">sum</span>(dirs[..., np.newaxis, :] * c2w[:<span class="number">3</span>,:<span class="number">3</span>], -<span class="number">1</span>)</span><br><span class="line">rays_o = c2w[:<span class="number">3</span>,-<span class="number">1</span>].expand(rays_d.shape)</span><br></pre></td></tr></table></figure>
-
-<p>最后利用外参矩阵，将三维坐标转化为四维齐次坐标，实现从相机坐标系到世界坐标系的转变，因此train()函数中的光线实际上是在世界坐标系中的定义。</p>
-<p>此后，NeRF对生成的所有（世界坐标系的）光线进行Voxel Rendering。这一过程中，作者再一次利用相机坐标系进行过渡，首先在相机坐标系中定义近平面和远平面，然后再最后计算体渲染方程时才转化到世界坐标系。这一步比较隐蔽，我前几次阅读代码都忽略了这一过程。</p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">bds_dict = &#123;</span><br><span class="line">    <span class="string">&#x27;near&#x27;</span> : near,</span><br><span class="line">    <span class="string">&#x27;far&#x27;</span> : far,</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<p>首先定义了近平面和远平面。注意这里的距离值表示相机到平面的距离，而不是具体某一个像素到达像素的值。 同时这里的值（代码中near &#x3D; 2, far &#x3D; 6）表示的平面到相机的距离，而不是平面和z轴的交点坐标。</p>
-<p><img src="/../image/image-20230919221758393.png" alt="image-20230919221758393"></p>
-<p>借助相机坐标系，我们希望对某一跟光线应用体渲染方程，就可以现在z轴上进行随机离散化操作。</p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">if</span> perturb &gt; <span class="number">0.</span>: <span class="comment"># purturb = 1.0，如果perturb非零则对光线进行随机切分采样</span></span><br><span class="line">     <span class="comment"># get intervals between samples</span></span><br><span class="line">     mids = <span class="number">.5</span> * (z_vals[...,<span class="number">1</span>:] + z_vals[...,:-<span class="number">1</span>])</span><br><span class="line">     <span class="comment"># mids的所有行都是一样</span></span><br><span class="line">     upper = torch.cat([mids, z_vals[...,-<span class="number">1</span>:]], -<span class="number">1</span>)</span><br><span class="line">     lower = torch.cat([z_vals[...,:<span class="number">1</span>], mids], -<span class="number">1</span>)</span><br><span class="line">     <span class="comment"># upper, lower ~ [1024, 64]</span></span><br><span class="line">     <span class="comment"># stratified samples in those intervals</span></span><br><span class="line">     t_rand = torch.rand(z_vals.shape)</span><br><span class="line">     <span class="comment"># t_rand ~ [1024, 64]</span></span><br><span class="line"></span><br><span class="line">     <span class="comment"># Pytest, overwrite u with numpy&#x27;s fixed random numbers</span></span><br><span class="line">     <span class="keyword">if</span> pytest:  <span class="comment"># False</span></span><br><span class="line">         np.random.seed(<span class="number">0</span>)</span><br><span class="line">         t_rand = np.random.rand(*<span class="built_in">list</span>(z_vals.shape))</span><br><span class="line">         t_rand = torch.Tensor(t_rand)</span><br><span class="line"></span><br><span class="line">     z_vals = lower + (upper - lower) * t_rand</span><br></pre></td></tr></table></figure>
-
-<p>这里可以看出，对光线进行离散化数值积分的切分首先是在z轴上进行的。</p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">pts = rays_o[...,<span class="literal">None</span>,:] + rays_d[...,<span class="literal">None</span>,:] * z_vals[...,:,<span class="literal">None</span>]</span><br></pre></td></tr></table></figure>
-
-<p>对z轴的切分实际上是光线上的采样点在z轴的投影。只需要等比例回到光线上即可得到采样点的坐标。</p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">raw = network_query_fn(pts, viewdirs, network_fn)rgb_map, disp_map, acc_map, weights, depth_map = raw2outputs(raw, z_vals, rays_d, raw_noise_std, white_bkgd, pytest=pytest)</span><br></pre></td></tr></table></figure>
-
-<p>下面只要把得到的采样点丢给神经网络，就可以得到对应点的rgb值和密度值。最后为了方便应用体渲染方程，我们还是借助z轴进行中转（实际上也可以直接用pts，但是可能更繁琐）。</p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">def</span> <span class="title function_">raw2outputs</span>(<span class="params">raw, z_vals, rays_d, raw_noise_std=<span class="number">0</span>, white_bkgd=<span class="literal">False</span>, pytest=<span class="literal">False</span></span>):</span><br><span class="line">    raw2alpha = <span class="keyword">lambda</span> raw, dists, act_fn=F.relu: <span class="number">1.</span>-torch.exp(-act_fn(raw)*dists)</span><br><span class="line"></span><br><span class="line">    <span class="comment"># z_vals ~ [1024, 64]</span></span><br><span class="line">    dists = z_vals[...,<span class="number">1</span>:] - z_vals[...,:-<span class="number">1</span>]</span><br><span class="line">    <span class="comment"># dists ~ [1024, 63] 每两个切点之间的距离(沿z轴)</span></span><br><span class="line">    dists = torch.cat([dists, torch.Tensor([<span class="number">1e10</span>]).expand(dists[...,:<span class="number">1</span>].shape)], -<span class="number">1</span>)  <span class="comment"># [N_rays, N_samples]</span></span><br><span class="line">    <span class="comment"># dists ~ [1024, (63+1)*3]</span></span><br><span class="line"></span><br><span class="line">    <span class="comment"># rays_d ~ [1024, 3]</span></span><br><span class="line">    dists = dists * torch.norm(rays_d[...,<span class="literal">None</span>,:], dim=-<span class="number">1</span>)</span><br><span class="line">    </span><br><span class="line">    <span class="comment"># torch.norm(rays_d[...,None,:], dim=-1) ~ [1024, 3] 求向量长度</span></span><br><span class="line">    rgb = torch.sigmoid(raw[...,:<span class="number">3</span>])  <span class="comment"># [N_rays, N_samples, 3]</span></span><br><span class="line">    <span class="comment"># rgb ~ [1024, 64, 3]</span></span><br><span class="line">    </span><br><span class="line">    alpha = raw2alpha(raw[...,<span class="number">3</span>] + noise, dists)  <span class="comment"># [N_rays, N_samples]</span></span><br><span class="line">    <span class="comment"># alpha ~ [1024, 64], raw[...,3]是volume density</span></span><br><span class="line">    <span class="comment"># weights = alpha * tf.math.cumprod(1.-alpha + 1e-10, -1, exclusive=True)</span></span><br><span class="line">    <span class="comment"># torch.ones(alpha.shape[0]) ~ [1024,]</span></span><br><span class="line">    </span><br><span class="line">    <span class="comment"># 这一步得到了微分的值，下一步将他们累加起来（exp()的累乘等于exp(累加)）</span></span><br><span class="line">    weights = alpha * torch.cumprod(torch.cat([torch.ones((alpha.shape[<span class="number">0</span>], <span class="number">1</span>)), <span class="number">1.</span>-alpha + <span class="number">1e-10</span>], -<span class="number">1</span>), -<span class="number">1</span>)[:, :-<span class="number">1</span>]</span><br><span class="line">    <span class="comment"># 每个采样点的颜色权重</span></span><br><span class="line">    <span class="comment"># weights ~ [1024, 64]</span></span><br><span class="line">    rgb_map = torch.<span class="built_in">sum</span>(weights[...,<span class="literal">None</span>] * rgb, -<span class="number">2</span>)  <span class="comment"># [N_rays, 3]</span></span><br><span class="line">    <span class="comment"># rgb_map ~ [1024, 3]</span></span><br><span class="line">    <span class="comment"># 根据渲染公式得到结果</span></span><br><span class="line"></span><br><span class="line">    depth_map = torch.<span class="built_in">sum</span>(weights * z_vals, -<span class="number">1</span>)</span><br><span class="line">    <span class="comment"># 到物体的深度估计（深度）</span></span><br><span class="line">    disp_map = <span class="number">1.</span>/torch.<span class="built_in">max</span>(<span class="number">1e-10</span> * torch.ones_like(depth_map), depth_map / torch.<span class="built_in">sum</span>(weights, -<span class="number">1</span>))</span><br><span class="line">    </span><br><span class="line">    acc_map = torch.<span class="built_in">sum</span>(weights, -<span class="number">1</span>)    <span class="comment"># sum of weights along each ray </span></span><br><span class="line"></span><br><span class="line">    <span class="keyword">return</span> rgb_map, disp_map, acc_map, weights, depth_map</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-
-<p>raw2output()函数即应用体渲染方程的过程。根据上述分析，在进行数值积分时也是现在z轴上进行，最后再考虑光线被远近平面截的线段比z轴截的的线段之间存在的比例关系。</p>
-<h3 id="引用"><a href="#引用" class="headerlink" title="引用"></a>引用</h3><div id="refer-anchor-1"></div>
-
-<ul>
-<li>[1] [NeRF开山之作](<a target="_blank" rel="noopener" href="https://dl.acm.org/doi/pdf/10.1145/3503250">NeRF (acm.org)</a>)</li>
-</ul>
-<div id="refer-anchor-2"></div>
-
-<ul>
-<li>[2] [NeRF的PyTorch实现](<a target="_blank" rel="noopener" href="https://github.com/yenchenlin/nerf-pytorch">yenchenlin&#x2F;nerf-pytorch: A PyTorch implementation of NeRF (Neural Radiance Fields) that reproduces the results. (github.com)</a>)</li>
-</ul>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://example.com/2023/09/25/MatrixTransformationInNeRF/" data-id="clmyzv4v600007kv5bd3i1v7a" data-title="NeRF中的视角矩阵变换" class="article-share-link"><span class="fa fa-share">Share</span></a>
-      
-      
-      
-    </footer>
-  </div>
-  
-</article>
-
-
-
-  
-
-
-</section>
-        
-          <aside id="sidebar">
-  
-    
-
-  
-    
-
-  
-    
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">Archives</h3>
-    <div class="widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2023/09/">September 2023</a></li></ul>
-    </div>
-  </div>
-
-
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">Recent Posts</h3>
-    <div class="widget">
-      <ul>
-        
-          <li>
-            <a href="/2023/09/25/MatrixTransformationInNeRF/">NeRF中的视角矩阵变换</a>
-          </li>
-        
-      </ul>
-    </div>
-  </div>
-
-  
-</aside>
-        
-      </div>
-      <footer id="footer">
-  
-  <div class="outer">
-    <div id="footer-info" class="inner">
-      
-      &copy; 2023 John Doe<br>
-      Powered by <a href="https://hexo.io/" target="_blank">Hexo</a>
-    </div>
-  </div>
-</footer>
-
-    </div>
-    <nav id="mobile-nav">
-  
-    <a href="/" class="mobile-nav-link">Home</a>
-  
-    <a href="/archives" class="mobile-nav-link">Archives</a>
-  
-</nav>
-    
-
-
-<script src="/js/jquery-3.6.4.min.js"></script>
-
-
-
-  
-<script src="/fancybox/jquery.fancybox.min.js"></script>
+    const detectApple = () => {
+      if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+    })(window)</script><meta name="generator" content="Hexo 6.3.0"></head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">Articles</div><div class="length-num">1</div></a><a href="/tags/"><div class="headline">Tags</div><div class="length-num">0</div></a><a href="/categories/"><div class="headline">Categories</div><div class="length-num">0</div></a></div><hr class="custom-hr"/></div></div><div class="page" id="body-wrap"><header class="full_page" id="page-header"><nav id="nav"><span id="blog-info"><a href="/" title="Zysun's blog"><span class="site-name">Zysun's blog</span></a></span><div id="menus"><div id="toggle-menu"><a class="site-page" href="javascript:void(0);"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="site-info"><h1 id="site-title">Zysun's blog</h1><div id="site-subtitle"><span id="subtitle"></span></div></div><div id="scroll-down"><i class="fas fa-angle-down scroll-down-effects"></i></div></header><main class="layout" id="content-inner"><div class="recent-posts" id="recent-posts"><div class="recent-post-item"><div class="recent-post-info"><a class="article-title" href="/2023/09/25/MatrixTransformationInNeRF/" title="NeRF中的视角矩阵变换">NeRF中的视角矩阵变换</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2023-09-25T13:46:19.000Z" title="Created 2023-09-25 21:46:19">2023-09-25</time></span></div><div class="content">NeRF中的视角变换为了深刻理解NeRF，基础的图形学知识是必要的。这里结合文章1和代码2对NeRF中的关于视角变换的图形学知识做一个总结和归纳。NeRF中使用的视图变换和Games101中讲述的略有差异，原因可能是传统的MVP-视口变换的方法适用于基于显示表达的场景，而在NeRF中采用隐式表达的方式描述3D物体。但是两者总体的框架是一致的，我总结为三种坐标系（世界坐标系、相机坐标系和屏幕坐标系）的建模和相互转化。
+世界坐标系 World Coordinates世界坐标系，是最直观的、我们生活中直接使用的坐标系。在样例代码中，小黄鸭（代码中是黄色挖掘机）基本处于坐标原点的位置，而最终生成的结果可以看成是相机在z轴上方对小黄鸭进行环绕拍摄：
 
 
 
 
-<script src="/js/script.js"></script>
+相机坐标系 Camera Coordinates在相机坐标系中，相机的成像平面处于X-Y平面上，且中心点与原点重合、垂直轴和Y轴重合。相机处于z轴（正方向）上，朝向-z方向，距离原点距离为focal。这与Games101中对相机坐标系的定义不同。
 
-
-
-
-
-  </div>
-</body>
-</html>
+屏幕坐标系 Screen Coordinates屏幕坐标系是一个二维的坐标系，用于摆放图片。该 ...</div></div></div><nav id="pagination"><div class="pagination"><span class="page-number current">1</span></div></nav></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src="https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__name">Ziyu Sun</div><div class="author-info__description"></div></div><div class="card-info-data site-data is-center"><a href="/archives/"><div class="headline">Articles</div><div class="length-num">1</div></a><a href="/tags/"><div class="headline">Tags</div><div class="length-num">0</div></a><a href="/categories/"><div class="headline">Categories</div><div class="length-num">0</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/Zysun2002"><i class="fab fa-github"></i><span>Follow Me</span></a></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>Announcement</span></div><div class="announcement_content">This is my Blog</div></div><div class="sticky_layout"><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>Recent Post</span></div><div class="aside-list"><div class="aside-list-item"><div class="content"><a class="title" href="/2023/09/25/MatrixTransformationInNeRF/" title="NeRF中的视角矩阵变换">NeRF中的视角矩阵变换</a><time datetime="2023-09-25T13:46:19.000Z" title="Created 2023-09-25 21:46:19">2023-09-25</time></div></div></div></div><div class="card-widget card-archives"><div class="item-headline"><i class="fas fa-archive"></i><span>Archives</span></div><ul class="card-archive-list"><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2023/09/"><span class="card-archive-list-date">September 2023</span><span class="card-archive-list-count">1</span></a></li></ul></div><div class="card-widget card-webinfo"><div class="item-headline"><i class="fas fa-chart-line"></i><span>Info</span></div><div class="webinfo"><div class="webinfo-item"><div class="item-name">Article :</div><div class="item-count">1</div></div><div class="webinfo-item"><div class="item-name">UV :</div><div class="item-count" id="busuanzi_value_site_uv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">PV :</div><div class="item-count" id="busuanzi_value_site_pv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">Last Push :</div><div class="item-count" id="last-push-date" data-lastPushDate="2023-09-25T14:41:52.727Z"><i class="fa-solid fa-spinner fa-spin"></i></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2020 - 2023 By Ziyu Sun</div><div class="framework-info"><span>Framework </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>Theme </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="darkmode" type="button" title="Switch Between Light And Dark Mode"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="Toggle between single-column and double-column"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="Setting"><i class="fas fa-cog fa-spin"></i></button><button id="go-up" type="button" title="Back To Top"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox/fancybox.umd.min.js"></script><div class="js-pjax"><script>window.typedJSFn = {
+  init: (str) => {
+    window.typed = new Typed('#subtitle', Object.assign({
+      strings: str,
+      startDelay: 300,
+      typeSpeed: 150,
+      loop: true,
+      backSpeed: 50,
+    }, null))
+  },
+  run: (subtitleType) => {
+    if (true) {
+      if (typeof Typed === 'function') {
+        subtitleType()
+      } else {
+        getScript('https://cdn.jsdelivr.net/npm/typed.js/dist/typed.umd.min.js').then(subtitleType)
+      }
+    } else {
+      subtitleType()
+    }
+  }
+}
+</script><script>function subtitleType () {
+  if (true) {
+    typedJSFn.init(["to make progress happen"])
+  } else {
+    document.getElementById("subtitle").textContent = "to make progress happen"
+  }
+}
+typedJSFn.run(subtitleType)</script></div><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div></body></html>
