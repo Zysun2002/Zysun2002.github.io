@@ -20,7 +20,7 @@ Publications
 **Ziyu Sun**, Haoyang Su, En Wang, Funing Yang, Yongjian Yang, Wenbin Liu <br/>
 *<a href="https://arxiv.org/abs/2410.05323" target="_blank">Preprint</a>.*
 [<a href="{{base.url}}/files/DiffRecon.pdf" target="_blank">PDF</a>] 
-[<a href="{{base.url}}/files/DiffRecon.bib" target="_blank">BibTeX</a>]<details><summary>details</summary>
+[<a href="{{base.url}}/files/DiffRecon.bib" target="_blank">BibTeX</a>]<details>
   hello world</details>
 
 
