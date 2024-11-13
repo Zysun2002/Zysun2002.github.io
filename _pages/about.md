@@ -35,9 +35,9 @@ Boming Zhao, Yuan Li, **Ziyu Sun**, Lin Zeng, Yujun Shen, Rui Ma, Yinda Zhang, H
 [<a href="{{base.url}}/files/DiffRecon.pdf" target="_blank">PDF</a>] 
 [<a href="{{base.url}}/files/DiffRecon.bib" target="_blank">BibTeX</a>]<details>
 <img src="{{base.url}}/files/DiffRecon_task.png" alt="Converted PDF as Image" width="350"><img src="{{base.url}}/files/DiffRecon_pipeline.png" alt="Converted PDF as Image" width="350"><br/>
-This work focuses on enhancing **spatial continuity** in data mining. Our key contribution is the introduction of a novel task called "**Spatiotemporal Data Reconstruction**," which leverages concepts from computer vision to infer a complete, fine-grained spatiotemporal map from incomplete, coarse-grained observations. We also propose a **two-stage generative model** that effectively captures spatiotemporal characteristics, leading to state-of-the-art performance. It is worth noting that this work is part of a series with *Toward Time-Continuous Data Inference in Sparse Urban CrowdSensing*, as both aim to achieve more precise (finer-grained in this work) modeling of real-world spatiotemporal data, with this work emphasizing the spatial perspective.</details>
+This work focuses on enhancing **spatial continuity** in data mining. Our key contribution is the introduction of a novel task called "**Spatiotemporal Data Reconstruction**," which leverages concepts from computer vision to infer a complete, fine-grained spatiotemporal map from incomplete, coarse-grained observations. We also propose a **two-stage diffusion model** that effectively captures spatiotemporal characteristics, leading to state-of-the-art performance.It is worth noting that this work is part of a series with *Toward Time-Continuous Data Inference in Sparse Urban CrowdSensing*, as both aim to achieve more precise (finer-grained in this work) modeling of real-world spatiotemporal data, with this work emphasizing the spatial perspective.</details>
 
-3. *Toward Time-Continuous Data Inference in Sparse Urban CrowdSensing* <br/>
+4. *Toward Time-Continuous Data Inference in Sparse Urban CrowdSensing* <br/>
 **Ziyu Sun**, Haoyang Su, Hanqi Sun, En Wang, Wenbin Liu <br/>
 *<a href="https://arxiv.org/abs/2408.16027" target="_blank">Preprint</a>.*
 [<a href="{{base.url}}/files/time-dmf.pdf" target="_blank">PDF</a>] 
