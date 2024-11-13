@@ -13,7 +13,7 @@ About me
 
 Hi! :wave: I am a fourth-year undergraduate in the Tang Ao-qing Honors Program in Computer Science at **Jilin University**. 
 
-During my undergraduate studies, I have been fortunate to collaborate with Professor **[https://ccst.jlu.edu.cn/info/1209/18150.htmWenbin Liu](https://ccst.jlu.edu.cn/info/1209/18150.htm)** and Professor **Rui Ma** at **Jilin University**, focusing on spatiotemporal data mining and 3D vision, respectively. I also gained valuable experience as a visiting student under the supervision of Professor **Zhaopeng Cui** at **Zhejiang University**, where I worked on 3D vision. Additionally, I completed two academic visits to the **University of Alberta**, where I focused on computer graphics, lasting one month and three months, respectively.
+During my undergraduate studies, I have been fortunate to collaborate with Professor **[Wenbin Liu](https://ccst.jlu.edu.cn/info/1209/18150.htm)** and Professor **Rui Ma** at **Jilin University**, focusing on spatiotemporal data mining and 3D vision, respectively. I also gained valuable experience as a visiting student under the supervision of Professor **Zhaopeng Cui** at **Zhejiang University**, where I worked on 3D vision. Additionally, I completed two academic visits to the **University of Alberta**, where I focused on computer graphics, lasting one month and three months, respectively.
 
 My current research interest involves computer graphics and 3D vision.
 
