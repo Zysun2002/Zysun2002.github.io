@@ -25,7 +25,7 @@ Publications
 *<a href="https://arxiv.org/abs/2410.05323" target="_blank">Preprint</a>.*
 [<a href="{{base.url}}/files/DiffRecon.pdf" target="_blank">PDF</a>] 
 [<a href="{{base.url}}/files/DiffRecon.bib" target="_blank">BibTeX</a>]<details>
-<img src="{{base.url}}/files/DiffRecon_pipeline.png" alt="Converted PDF as Image" width="400"><img src="{{base.url}}/files/DiffRecon_pipeline.png" alt="Converted PDF as Image" width="400">
+<img src="{{base.url}}/files/DiffRecon_pipeline.png" alt="Converted PDF as Image" width="350"><img src="{{base.url}}/files/DiffRecon_pipeline.png" alt="Converted PDF as Image" width="350"><br/>
 This work focuses on enhancing spatial continuity in data mining. Our key contribution is to propose a novel task called "Spatiotemporal Data Reconstruction" which brings the idea from computer vision to infer complete fine-grained spatiotemporal map from incomplete coarse-grained observation. We also propose a two-stage generative model to leverage spatiotemporal characteristics and thus lead to SOTA performance. </details>
 
 
