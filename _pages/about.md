@@ -51,8 +51,7 @@ Projects
 1.*Implementing a renderer from scratch* <br/>
 Finished during my summer visit to the University of Alberta <br/>
 *<a href="https://github.com/Zysun2002/Renderer-Alberta" target="_blank">Preprint</a>.*
-[<a href="{{base.url}}/files/DiffRecon.pdf" target="_blank">PDF</a>] 
-[<a href="{{base.url}}/files/DiffRecon.bib" target="_blank">BibTeX</a>]<details>
+<details>
 <img src="{{base.url}}/files/DiffRecon_task.png" alt="Converted PDF as Image" width="350"><img src="{{base.url}}/files/DiffRecon_pipeline.png" alt="Converted PDF as Image" width="350"><br/>
 The renderer features two pipelines: one based on rasterization and the other on ray tracing. It also includes optimizations such as ambient occlusion mapping and shadow mapping. Writing codes to translate elegant mathematical concepts to visually appealing images always excites me.</details>
 
