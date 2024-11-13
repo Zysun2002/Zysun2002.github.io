@@ -1,49 +1,79 @@
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: ""
+excerpt: ""
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the repository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this template](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads!
-
-A data-driven personal website
+About me
 ======
-Like many other Jekyll-based GitHub Pages templates, Academic Pages makes you separate the website's content from its form. The content & metadata of your website are in structured markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
 
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over - just be sure to save the markdown files! Finally, you can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
+Data Scientist with over 7 years of proficiency in machine learning, data science, and statistical analysis. Extensive experience in collaborating and communicating with experts from interdisciplinary fields. Passionate about crafting innovative AI and ML solutions, staying up-to-date with technology advancements such as generative AI, and emphasizing model interpretability for explainable results.
 
-Getting started
+Publications
 ======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this template](https://github.com/academicpages/academicpages.github.io) by clicking the "Use this template" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](http://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
 
-Site-wide configuration
-------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
+You can also find a list of my published work on <a href="https://scholar.google.com/citations?hl=en&user=1Zl_n9MAAAAJ&view_op=list_works&sortby=pubdate" target="_blank">Google Scholar</a>.
 
-Create content & metadata
-------
-For site content, there is one markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
+1. *Positive-unlabeled learning identifies vaccine candidate antigens in the malaria parasite Plasmodium falciparum.* <br/>
+**R. T. Chou**, A. Ouattara, M. Adams, A. A. Berry, S. Takala-Harrison, M. P. Cummings <br/>
+*<a href="https://www.nature.com/articles/s41540-024-00365-1" target="_blank">npj Systems Biology and Applications (2024)</a>.*
+[<a href="{{base.url}}/files/Chou_2024_1.pdf" target="_blank">PDF</a>] 
+[<a href="{{base.url}}/files/Chou_2024_1.bib" target="_blank">BibTeX</a>] 
+[<a href="https://pubmed.ncbi.nlm.nih.gov/38678051/" target="_blank">PubMed</a>]
+[<a href="https://rtchou.github.io/malaria-antigen-identification-pf/" target="_blank">Source Code</a>]
+[<a href="https://www.umiacs.umd.edu/about-us/news/using-machine-learning-develop-more-effective-malaria-vaccine" target="_blank">UMIACS News</a>]
+[<a href="https://today.umd.edu/to-hunt-for-better-malaria-vaccines-researchers-turn-to-machine-learning" target="_blank">Maryland Today</a>]
 
-**Markdown generator**
+1. *Application of advanced machine learning strategies for biomedical research.* <br/>
+**R. T. Chou** <br/>
+*<a href="https://doi.org/10.13016/pepg-seog" target="_blank">Digital Repository at the University of Maryland (DRUM) (2023)</a>.*
+[<a href="{{base.url}}/files/Chou_dissertation_2023.pdf" target="_blank">PDF</a>] 
+[<a href="{{base.url}}/files/Chou_dissertation_2023.bib" target="_blank">BibTeX</a>] 
 
-The repository includes [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual markdown files that will be properly formatted for the Academic Pages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the markdown files, then commit and push them to the GitHub repository.
+1. *Engineered peptide-drug conjugate provides sustained protection of retinal ganglion cells with topical administration in rats.* <br/>
+H. T. Hsueh<sup>$\*$</sup>, **R. T. Chou**<sup>$\*$</sup> (co-first author), U. Rai, P. Kolodziejski, W. Liyanage, J. Pejavar, A. Mozzer, C. Davison, M. B. Appell, Y. C. Kim, K. T. Leo, H. Kwon, M. Sista, N. M. Anders, A. Hemingway, S. V. K. Rompicharla, I. Pitha, D. J. Zack, J. Hanes, M. P. Cummings, L. M. Ensign <br/>
+*<a href="https://doi.org/10.1016/j.jconrel.2023.08.058" target="_blank">Journal of Controlled Release (2023)</a>.*
+[<a href="{{base.url}}/files/Hsueh_Chou_2023_2.pdf" target="_blank">PDF</a>] 
+[<a href="{{base.url}}/files/Hsueh_Chou_2023_2.bib" target="_blank">BibTeX</a>] 
+[<a href="https://pubmed.ncbi.nlm.nih.gov/37657693/" target="_blank">PubMed</a>]
+[<a href="https://rtchou.github.io/RGC-quantifier/" target="_blank">Source Code</a>]
 
-How to edit your site's GitHub repository
-------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
+1. *Using machine learning to understand the relationships between audiometric data, speech perception, temporal processing, and cognition.* <br/>
+R. M. Khalil, A. Papanicolaou, **R. T. Chou**, B. E. Gibbs, S. Anderson, S. Gordon-Salant, M. P. Cummings, M. J. Goupell <br/>
+*<a href="https://doi.org/10.1109/ICASSP49357.2023.10095325" target="_blank">2023 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP) (2023)</a>.*
+[<a href="{{base.url}}/files/Khalil_2023.pdf" target="_blank">PDF</a>] 
+[<a href="{{base.url}}/files/Khalil_2023.bib" target="_blank">BibTeX</a>] 
+<!-- [<a href="https://pubmed.ncbi.nlm.nih.gov/37130851/" target="_blank">PubMed</a>] -->
 
-Example: editing a markdown file for a talk
-![Editing a markdown file for a talk](/images/editing-talk.png)
+1. *Machine learning-driven multifunctional peptide engineering for sustained ocular drug delivery.* <br/>
+H. T. Hsueh<sup>$\*$</sup>, **R. T. Chou**<sup>$\*$</sup> (co-first author), U. Rai, W. Liyanage, Y. C. Kim, M. B. Appell, J. Pejavar, K. T. Leo, C. Davison, P. Kolodziejski, A. Mozzer, H. Kwon, M. Sista, N. M. Anders, A. Hemingway, S. V. K. Rompicharla, M. Edwards, I. Pitha, J. Hanes, M. P. Cummings, L. M. Ensign <br/>
+*<a href="https://doi.org/10.1038/s41467-023-38056-w" target="_blank">Nature Communications (2023)</a>.*
+[<a href="{{base.url}}/files/Hsueh_Chou_2023_1.pdf" target="_blank">PDF</a>] 
+[<a href="{{base.url}}/files/Hsueh_Chou_2023_1.bib" target="_blank">BibTeX</a>] 
+[<a href="https://pubmed.ncbi.nlm.nih.gov/37130851/" target="_blank">PubMed</a>]
+[<a href="https://rtchou.github.io/multifunctional-peptide-engineering/" target="_blank">Source Code</a>]
+[<a href="https://www.umiacs.umd.edu/about-us/news/umd-researchers-partner-wilmer-eye-institute-enhance-sustained-delivery-ocular-drugs" target="_blank">UMIACS News</a>]
+[<a href="https://www.hopkinsmedicine.org/news/newsroom/news-releases/ai-used-to-advance-drug-delivery-system-for-glaucoma-and-other-chronic-diseases" target="_blank">Hopkins Medicine News</a>]
 
-For more info
-------
-More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/), the [growing wiki](https://github.com/academicpages/academicpages.github.io/wiki), and you can always [ask a question on GitHub](https://github.com/academicpages/academicpages.github.io/discussions). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+1. *A hypotonic gel-forming eye drop provides enhanced intraocular delivery of a kinase inhibitor with melanin-binding properties for sustained protection of retinal ganglion cells.* <br/>
+Y. C. Kim, H. T. Hsueh, M. D. Shin, C. A. Berlinicke, H. Han, N. M. Anders, A. Hemingway, K. T. Leo, **R. T. Chou**, H. Kwon, M. B. Appell, U. Rai, P. Kolodziejski, C. Eberhart, I. Pitha, D. J. Zack, J. Hanes, L. M. Ensign <br/>
+*<a href="https://link.springer.com/article/10.1007/s13346-021-00987-6" target="_blank">Drug Delivery and Translational Research (2022)</a>.*
+[<a href="{{base.url}}/files/Kim_2022.pdf" target="_blank">PDF</a>] 
+[<a href="{{base.url}}/files/Kim_2022.bib" target="_blank">BibTeX</a>] 
+[<a href="https://pubmed.ncbi.nlm.nih.gov/33900546/" target="_blank">PubMed</a>] 
+
+1. *Ion-complex microcrystal formulation provides sustained delivery of a multimodal kinase inhibitor from the subconjunctival space for protection of retinal ganglion cells.* <br/>
+H. T. Hsueh, Y.-C. Kim, I. Pitha, M. D. Shin, C. A. Berlinicke, **R. T. Chou**, E. Kimball, J. Schaub, S. Quillen, K. T. Leo, H. Han, A. Xiao, Y. Kim, M. Appell, U. Rai, H. Kwon, P. Kolodziejski, L. Ogunnaike, N. M. Anders, A. Hemingway, J. L. Jefferys, A. A. Date, C. Eberhart, T. V. Johnson, H. A. Quigley, D. J. Zack, J. Hanes, L. M. Ensign <br/>
+*<a href="https://www.mdpi.com/1999-4923/13/5/647" target="_blank">Pharmaceutics (2021)</a>.*
+[<a href="{{base.url}}/files/Hsueh_2021.pdf" target="_blank">PDF</a>] 
+[<a href="{{base.url}}/files/Hsueh_2021.bib" target="_blank">BibTeX</a>] 
+[<a href="https://pubmed.ncbi.nlm.nih.gov/34062883/" target="_blank">PubMed</a>] 
+
+Fun facts
+======
+
+<p class="archive__item-excerpt" itemprop="description"><img src='/images/fun_facts.jpg'></p>
