@@ -16,10 +16,10 @@ Data Scientist with over 7 years of proficiency in machine learning, data scienc
 Publications
 ======
 
-You can also find a list of my published work on <a href="https://scholar.google.com/citations?hl=en&user=1Zl_n9MAAAAJ&view_op=list_works&sortby=pubdate" target="_blank">Google Scholar</a>.
+hl=en&user=1Zl_n9MAAAAJ&view_op=list_works&sortby=pubdate" target="_blank">Google Scholar</a>.
 
-1. *Positive-unlabeled learning identifies vaccine candidate antigens in the malaria parasite Plasmodium falciparum.* <br/>
-**R. T. Chou**, A. Ouattara, M. Adams, A. A. Berry, S. Takala-Harrison, M. P. Cummings <br/>
+1. *From Incomplete Coarse-Grained to Complete Fine-Grained: A Two-Stage Framework for Spatiotemporal Data Reconstruction* <br/>
+**Ziyu Sun**, Haoyang Su, En Wang, Funing Yang, Yongjian Yang, Wenbin Liu <br/>
 *<a href="https://www.nature.com/articles/s41540-024-00365-1" target="_blank">npj Systems Biology and Applications (2024)</a>.*
 [<a href="{{base.url}}/files/Chou_2024_1.pdf" target="_blank">PDF</a>] 
 [<a href="{{base.url}}/files/Chou_2024_1.bib" target="_blank">BibTeX</a>] 
@@ -73,7 +73,4 @@ H. T. Hsueh, Y.-C. Kim, I. Pitha, M. D. Shin, C. A. Berlinicke, **R. T. Chou**, 
 [<a href="{{base.url}}/files/Hsueh_2021.bib" target="_blank">BibTeX</a>] 
 [<a href="https://pubmed.ncbi.nlm.nih.gov/34062883/" target="_blank">PubMed</a>] 
 
-Fun facts
-======
 
-<p class="archive__item-excerpt" itemprop="description"><img src='/images/fun_facts.jpg'></p>
