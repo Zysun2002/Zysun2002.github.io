@@ -58,9 +58,11 @@ The renderer features two pipelines: one based on rasterization and the other on
 
 #### Others
 
+1. *Compile2024-Simple-sysy-Compiler*
+*[<a href="https://github.com/Zysun2002/Compile2024-Simple-sysy-Compiler" target="_blank">Project Link</a>.]*
 
-
-
+2. *Distributed-Software-Development-between-JLU-and-UTAD*
+*[<a href="https://github.com/Zysun2002/Distributed-Software-Development-2024" target="_blank">Project Link</a>.]*
 
 
 
