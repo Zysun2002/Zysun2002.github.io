@@ -20,29 +20,28 @@ My current research interest involves computer graphics and 3D vision.
 Publications
 ======
 
-1. *From Incomplete Coarse-Grained to Complete Fine-Grained: A Two-Stage Framework for Spatiotemporal Data Reconstruction* <br/>
-**Ziyu Sun**, Haoyang Su, En Wang, Funing Yang, Yongjian Yang, Wenbin Liu <br/>
-*<a href="https://arxiv.org/abs/2410.05323" target="_blank">Preprint</a>.*
-[<a href="{{base.url}}/files/DiffRecon.pdf" target="_blank">PDF</a>] 
-[<a href="{{base.url}}/files/DiffRecon.bib" target="_blank">BibTeX</a>]<details>
-<img src="{{base.url}}/files/DiffRecon_pipeline.png" alt="Converted PDF as Image" width="350"><img src="{{base.url}}/files/DiffRecon_pipeline.png" alt="Converted PDF as Image" width="350"><br/>
-This work focuses on enhancing spatial continuity in data mining. Our key contribution is to propose a novel task called "Spatiotemporal Data Reconstruction" which brings the idea from computer vision to infer complete fine-grained spatiotemporal map from incomplete coarse-grained observation. We also propose a two-stage generative model to leverage spatiotemporal characteristics and thus lead to SOTA performance. </details>
-
-
-
-3. *GaussianPrediction: Dynamic 3D Gaussian Prediction for Motion Extrapolation and Free View Synthesis* <br/>
+1. *GaussianPrediction: Dynamic 3D Gaussian Prediction for Motion Extrapolation and Free View Synthesis* <br/>
 Boming Zhao, Yuan Li, **Ziyu Sun**, Lin Zeng, Yujun Shen, Rui Ma, Yinda Zhang, Hujun Bao, Zhaopeng Cui <br/>
 *<a href="https://doi.org/10.13016/pepg-seog" target="_blank">Digital Repository at the University of Maryland (DRUM) (2023)</a>.*
 [<a href="{{base.url}}/files/Chou_dissertation_2023.pdf" target="_blank">PDF</a>] 
 [<a href="{{base.url}}/files/Chou_dissertation_2023.bib" target="_blank">BibTeX</a>] <details>
   hello world</details>
 
-4. *Toward Time-Continuous Data Inference in Sparse Urban CrowdSensing* <br/>
+2. *From Incomplete Coarse-Grained to Complete Fine-Grained: A Two-Stage Framework for Spatiotemporal Data Reconstruction* <br/>
+**Ziyu Sun**, Haoyang Su, En Wang, Funing Yang, Yongjian Yang, Wenbin Liu <br/>
+*<a href="https://arxiv.org/abs/2410.05323" target="_blank">Preprint</a>.*
+[<a href="{{base.url}}/files/DiffRecon.pdf" target="_blank">PDF</a>] 
+[<a href="{{base.url}}/files/DiffRecon.bib" target="_blank">BibTeX</a>]<details>
+<img src="{{base.url}}/files/DiffRecon_pipeline.png" alt="Converted PDF as Image" width="350"><img src="{{base.url}}/files/DiffRecon_pipeline.png" alt="Converted PDF as Image" width="350"><br/>
+This work focuses on enhancing spatial continuity in data mining. Our key contribution is the introduction of a novel task called "Spatiotemporal Data Reconstruction," which leverages concepts from computer vision to infer a complete, fine-grained spatiotemporal map from incomplete, coarse-grained observations. We also propose a two-stage generative model that effectively captures spatiotemporal characteristics, leading to state-of-the-art (SOTA) performance. It is worth noting that this work is part of a series that includes Toward Time-Continuous Data Inference in Sparse Urban CrowdSensing, as both aim to achieve more precise (finer-grained in this work) modeling of real-world spatiotemporal data, with this work emphasizing the spatial perspective.</details>
+
+3. *Toward Time-Continuous Data Inference in Sparse Urban CrowdSensing* <br/>
 H. T. Hsueh<sup>$\*$</sup>, **R. T. Chou**<sup>$\*$</sup> (co-first author), U. Rai, P. Kolodziejski, W. Liyanage, J. Pejavar, A. Mozzer, C. Davison, M. B. Appell, Y. C. Kim, K. T. Leo, H. Kwon, M. Sista, N. M. Anders, A. Hemingway, S. V. K. Rompicharla, I. Pitha, D. J. Zack, J. Hanes, M. P. Cummings, L. M. Ensign <br/>
 *<a href="https://doi.org/10.1016/j.jconrel.2023.08.058" target="_blank">Journal of Controlled Release (2023)</a>.*
 [<a href="{{base.url}}/files/Hsueh_Chou_2023_2.pdf" target="_blank">PDF</a>] 
 [<a href="{{base.url}}/files/Hsueh_Chou_2023_2.bib" target="_blank">BibTeX</a>] <details>
-hello world</details>
+<img src="{{base.url}}/files/DiffRecon_pipeline.png" alt="Converted PDF as Image" width="350"><img src="{{base.url}}/files/DiffRecon_pipeline.png" alt="Converted PDF as Image" width="350"><br/>
+This work focuses on enhancing temporal continuity in data mining. Our key observation is that existing approaches typically employ a "time-discrete" preprocessing step before applying their algorithms, which can introduce inaccuracies. For example, nearly all existing methods slice the timeline into discrete time units and aggregate data within each unit, disregarding the precise arrival times of the data. In our research, we first propose a fine-grained adaptation for time-discrete solutions and then optimize it into a time-continuous version. Notably, this work is part of a series that includes From Incomplete Coarse-Grained to Complete Fine-Grained: A Two-Stage Framework for Spatiotemporal Data Reconstruction, both aiming to achieve more precise modeling of real-world scenarios from a temporal perspective, with a particular emphasis on continuity in this study.</details>
 
 Programs
 ======
