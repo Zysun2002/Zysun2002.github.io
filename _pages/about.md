@@ -65,6 +65,6 @@ The renderer features two pipelines: one based on rasterization and the other on
 2. *Distributed-Software-Development-between-JLU-and-UTAD*
 *[<a href="https://github.com/Zysun2002/Distributed-Software-Development-2024" target="_blank">Project Link</a>.]*
 
-
-
-
+CV
+======
+My CV is attached [<a href="{{base.url}}/files/cv.pdf" target="_blank">here</a>].
