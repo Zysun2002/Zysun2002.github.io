@@ -25,7 +25,8 @@ Publications
 *<a href="https://arxiv.org/abs/2410.05323" target="_blank">Preprint</a>.*
 [<a href="{{base.url}}/files/DiffRecon.pdf" target="_blank">PDF</a>] 
 [<a href="{{base.url}}/files/DiffRecon.bib" target="_blank">BibTeX</a>]<details>
-  hello world</details>
+<img src="{{base.url}}/files/DiffRecon_pipeline.png" alt="Converted PDF as Image" width="200">
+hello world</details>
 
 
 
