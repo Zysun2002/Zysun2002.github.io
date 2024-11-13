@@ -43,7 +43,7 @@ This work focuses on enhancing spatial continuity in data mining. Our key contri
 <img src="{{base.url}}/files/time-dmf_task.png" alt="Converted PDF as Image" width="350"><img src="{{base.url}}/files/time-dmf_pipeline.png" alt="Converted PDF as Image" width="350"><br/>
 This work focuses on enhancing temporal continuity in data mining. Our key observation is that existing approaches typically employ a "time-discrete" preprocessing step before applying their algorithms, which can introduce inaccuracies. For example, nearly all existing methods slice the timeline into discrete time units and aggregate data within each unit, disregarding the precise arrival times of the data. In our research, we first propose a fine-grained adaptation for time-discrete solutions and then optimize it into a time-continuous version. Notably, this work is part of a series with *From Incomplete Coarse-Grained to Complete Fine-Grained: A Two-Stage Framework for Spatiotemporal Data Reconstruction*, both aiming to achieve more precise modeling of real-world scenarios from a temporal perspective, with a particular emphasis on continuity in this study.</details>
 
-Programs
+Projects
 ======
 
 1. *Implementing a renderer from scratch*<br/>
