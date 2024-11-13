@@ -23,8 +23,8 @@ Publications
 [<a href="{{base.url}}/files/DiffRecon.bib" target="_blank">BibTeX</a>] 
 
 
-1. *Application of advanced machine learning strategies for biomedical research.* <br/>
-**R. T. Chou** <br/>
+1. *GaussianPrediction: Dynamic 3D Gaussian Prediction for Motion Extrapolation and Free View Synthesis* <br/>
+Boming Zhao, Yuan Li, **Ziyu Sun**, Lin Zeng, Yujun Shen, Rui Ma, Yinda Zhang, Hujun Bao, Zhaopeng Cui <br/>
 *<a href="https://doi.org/10.13016/pepg-seog" target="_blank">Digital Repository at the University of Maryland (DRUM) (2023)</a>.*
 [<a href="{{base.url}}/files/Chou_dissertation_2023.pdf" target="_blank">PDF</a>] 
 [<a href="{{base.url}}/files/Chou_dissertation_2023.bib" target="_blank">BibTeX</a>] 
