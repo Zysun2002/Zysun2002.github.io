@@ -48,7 +48,7 @@ This work focuses on enhancing temporal continuity in data mining. Our key obser
 Projects
 ======
 
-######Computer graphics related
+###### Computer graphics related
 
 1. *Implementing a renderer from scratch* <br/>
 Finished during my summer visit to the University of Alberta 
@@ -56,7 +56,7 @@ Finished during my summer visit to the University of Alberta
 <img src="{{base.url}}/files/pumpkin.gif" alt="Converted PDF as Image" width="200"><img src="{{base.url}}/files/balls.png" alt="Converted PDF as Image" width="356"><br/>
 The renderer features two pipelines: one based on rasterization and the other on ray tracing. It also includes optimizations such as ambient occlusion mapping and shadow mapping. Writing codes to translate elegant mathematical concepts to visually appealing images always excites me.</details>
 
-######Others
+###### Others
 
 
 
