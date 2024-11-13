@@ -26,7 +26,7 @@ Boming Zhao, Yuan Li, **Ziyu Sun**, Lin Zeng, Yujun Shen, Rui Ma, Yinda Zhang, H
 *<a href="https://dl.acm.org/doi/abs/10.1145/3641519.3657417" target="_blank">Siggraph 2024</a>.*
 [<a href="{{base.url}}/files/GaussianPrediction.pdf" target="_blank">PDF</a>] 
 [<a href="{{base.url}}/files/GaussianPrediction.bib" target="_blank">BibTeX</a>] <details>
-  hello world</details>
+  This project marks my first exploration into 3D vision, where I gained foundational research experience by collaborating with outstanding PhD students. In this work, we propose a more compact 3D Gaussian Splatting (3DGS) representation for dynamic scenes based on key points. We achieved an exciting task, which we call future synthesis: predicting the future movements of dynamic objects and generating renderings from arbitrary perspectives. My responsibilities included constructing the framework for the extrapolation network and assisting with the training of the reconstruction networks.   </details>
 
 2. *From Incomplete Coarse-Grained to Complete Fine-Grained: A Two-Stage Framework for Spatiotemporal Data Reconstruction* <br/>
 **Ziyu Sun**, Haoyang Su, En Wang, Funing Yang, Yongjian Yang, Wenbin Liu <br/>
@@ -34,7 +34,7 @@ Boming Zhao, Yuan Li, **Ziyu Sun**, Lin Zeng, Yujun Shen, Rui Ma, Yinda Zhang, H
 [<a href="{{base.url}}/files/DiffRecon.pdf" target="_blank">PDF</a>] 
 [<a href="{{base.url}}/files/DiffRecon.bib" target="_blank">BibTeX</a>]<details>
 <img src="{{base.url}}/files/DiffRecon_task.png" alt="Converted PDF as Image" width="350"><img src="{{base.url}}/files/DiffRecon_pipeline.png" alt="Converted PDF as Image" width="350"><br/>
-This work focuses on enhancing spatial continuity in data mining. Our key contribution is the introduction of a novel task called "Spatiotemporal Data Reconstruction," which leverages concepts from computer vision to infer a complete, fine-grained spatiotemporal map from incomplete, coarse-grained observations. We also propose a two-stage generative model that effectively captures spatiotemporal characteristics, leading to state-of-the-art (SOTA) performance. It is worth noting that this work is part of a series with *Toward Time-Continuous Data Inference in Sparse Urban CrowdSensing*, as both aim to achieve more precise (finer-grained in this work) modeling of real-world spatiotemporal data, with this work emphasizing the spatial perspective.</details>
+This work focuses on enhancing spatial continuity in data mining. Our key contribution is the introduction of a novel task called "Spatiotemporal Data Reconstruction," which leverages concepts from computer vision to infer a complete, fine-grained spatiotemporal map from incomplete, coarse-grained observations. We also propose a two-stage generative model that effectively captures spatiotemporal characteristics, leading to state-of-the-art performance. It is worth noting that this work is part of a series with *Toward Time-Continuous Data Inference in Sparse Urban CrowdSensing*, as both aim to achieve more precise (finer-grained in this work) modeling of real-world spatiotemporal data, with this work emphasizing the spatial perspective.</details>
 
 3. *Toward Time-Continuous Data Inference in Sparse Urban CrowdSensing* <br/>
 **Ziyu Sun**, Haoyang Su, Hanqi Sun, En Wang, Wenbin Liu <br/>
