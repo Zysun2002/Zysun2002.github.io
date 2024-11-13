@@ -48,7 +48,7 @@ This work focuses on enhancing temporal continuity in data mining. Our key obser
 Projects
 ======
 
-1.*Implementing a renderer from scratch* <br/>
+1. *Implementing a renderer from scratch* <br/>
 Finished during my summer visit to the University of Alberta 
 *[<a href="https://github.com/Zysun2002/Renderer-Alberta" target="_blank">Project Link</a>.]*
 <details>
