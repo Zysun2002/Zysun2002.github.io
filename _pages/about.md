@@ -16,8 +16,6 @@ Data Scientist with over 7 years of proficiency in machine learning, data scienc
 Publications
 ======
 
-hl=en&user=1Zl_n9MAAAAJ&view_op=list_works&sortby=pubdate" target="_blank">Google Scholar</a>.
-
 1. *From Incomplete Coarse-Grained to Complete Fine-Grained: A Two-Stage Framework for Spatiotemporal Data Reconstruction* <br/>
 **Ziyu Sun**, Haoyang Su, En Wang, Funing Yang, Yongjian Yang, Wenbin Liu <br/>
 *<a href="https://www.nature.com/articles/s41540-024-00365-1" target="_blank">npj Systems Biology and Applications (2024)</a>.*
