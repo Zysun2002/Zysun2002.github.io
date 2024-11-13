@@ -11,7 +11,11 @@ redirect_from:
 About me
 ======
 
-Data Scientist with over 7 years of proficiency in machine learning, data science, and statistical analysis. Extensive experience in collaborating and communicating with experts from interdisciplinary fields. Passionate about crafting innovative AI and ML solutions, staying up-to-date with technology advancements such as generative AI, and emphasizing model interpretability for explainable results.
+Hello! I am a fourth-year undergraduate in the Tang Ao-qing Honors Program in Computer Science at Jilin University. 
+
+During my undergraduate studies, I have been fortunate to collaborate with Professor Wenbin Liu and Professor Rui Ma at Jilin University, focusing on spatiotemporal data mining and 3D vision, respectively. I also gained valuable experience as a visiting student under the supervision of Professor Zhaopeng Cui at Zhejiang University. Additionally, I completed two academic visits to the University of Alberta, lasting one month and three months, respectively.
+
+My current research interest involves computer graphics and computer vision.
 
 Publications
 ======
