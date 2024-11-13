@@ -18,13 +18,10 @@ Publications
 
 1. *From Incomplete Coarse-Grained to Complete Fine-Grained: A Two-Stage Framework for Spatiotemporal Data Reconstruction* <br/>
 **Ziyu Sun**, Haoyang Su, En Wang, Funing Yang, Yongjian Yang, Wenbin Liu <br/>
-*<a href="https://www.nature.com/articles/s41540-024-00365-1" target="_blank">npj Systems Biology and Applications (2024)</a>.*
+*<a href="https://www.nature.com/articles/s41540-024-00365-1" target="_blank">Preprints</a>.*
 [<a href="{{base.url}}/files/Chou_2024_1.pdf" target="_blank">PDF</a>] 
 [<a href="{{base.url}}/files/Chou_2024_1.bib" target="_blank">BibTeX</a>] 
-[<a href="https://pubmed.ncbi.nlm.nih.gov/38678051/" target="_blank">PubMed</a>]
-[<a href="https://rtchou.github.io/malaria-antigen-identification-pf/" target="_blank">Source Code</a>]
-[<a href="https://www.umiacs.umd.edu/about-us/news/using-machine-learning-develop-more-effective-malaria-vaccine" target="_blank">UMIACS News</a>]
-[<a href="https://today.umd.edu/to-hunt-for-better-malaria-vaccines-researchers-turn-to-machine-learning" target="_blank">Maryland Today</a>]
+
 
 1. *Application of advanced machine learning strategies for biomedical research.* <br/>
 **R. T. Chou** <br/>
