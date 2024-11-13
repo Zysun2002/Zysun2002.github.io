@@ -1,5 +1,5 @@
 ---
-title: "Paper Title Number 3"
+title: "From Incomplete Coarse-Grained to Complete Fine-Grained: A Two-Stage Framework for Spatiotemporal Data Reconstruction"
 collection: publications
 category: manuscripts
 permalink: /publication/2015-10-01-paper-title-number-3
