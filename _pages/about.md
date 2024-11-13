@@ -40,6 +40,9 @@ H. T. Hsueh<sup>$\*$</sup>, **R. T. Chou**<sup>$\*$</sup> (co-first author), U. 
 Programs
 ======
 
+1. *Implementing a renderer from scratch*<br/>
+Done in the summer visit in the University of Alberta. *<a href="https://github.com/Zysun2002/Renderer-Alberta" target="_blank">link</a>.*
+
 
 News
 ======
