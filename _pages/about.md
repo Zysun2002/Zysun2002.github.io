@@ -24,8 +24,8 @@ Publications
 1. *GaussianPrediction: Dynamic 3D Gaussian Prediction for Motion Extrapolation and Free View Synthesis* <br/>
 Boming Zhao, Yuan Li, **Ziyu Sun**, Lin Zeng, Yujun Shen, Rui Ma, Yinda Zhang, Hujun Bao, Zhaopeng Cui <br/>
 *<a href="https://dl.acm.org/doi/abs/10.1145/3641519.3657417" target="_blank">Siggraph 2024</a>.*
-[<a href="{{base.url}}/files/Chou_dissertation_2023.pdf" target="_blank">PDF</a>] 
-[<a href="{{base.url}}/files/Chou_dissertation_2023.bib" target="_blank">BibTeX</a>] <details>
+[<a href="{{base.url}}/files/GaussianPrediction.pdf" target="_blank">PDF</a>] 
+[<a href="{{base.url}}/files/GaussianPrediction.bib" target="_blank">BibTeX</a>] <details>
   hello world</details>
 
 2. *From Incomplete Coarse-Grained to Complete Fine-Grained: A Two-Stage Framework for Spatiotemporal Data Reconstruction* <br/>
