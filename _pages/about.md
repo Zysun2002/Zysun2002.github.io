@@ -17,6 +17,7 @@ During my undergraduate studies, I have been fortunate to collaborate with Profe
 
 :smiley: My current research interest involves computer graphics and 3D vision.
 
+![Uploading 1519779_brush_colorful_office_paint_painting_icon.png…]()
 
 Publications
 ======
