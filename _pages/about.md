@@ -29,21 +29,21 @@ Publications
 Boming Zhao, Yuan Li, **Ziyu Sun**, Lin Zeng, Yujun Shen, Rui Ma, Yinda Zhang, Hujun Bao, Zhaopeng Cui <br/>
 *<a href="https://doi.org/10.13016/pepg-seog" target="_blank">Digital Repository at the University of Maryland (DRUM) (2023)</a>.*
 [<a href="{{base.url}}/files/Chou_dissertation_2023.pdf" target="_blank">PDF</a>] 
-[<a href="{{base.url}}/files/Chou_dissertation_2023.bib" target="_blank">BibTeX</a>] <details><summary>details</summary>
+[<a href="{{base.url}}/files/Chou_dissertation_2023.bib" target="_blank">BibTeX</a>] <details>
   hello world</details>
 
 4. *Toward Time-Continuous Data Inference in Sparse Urban CrowdSensing* <br/>
 H. T. Hsueh<sup>$\*$</sup>, **R. T. Chou**<sup>$\*$</sup> (co-first author), U. Rai, P. Kolodziejski, W. Liyanage, J. Pejavar, A. Mozzer, C. Davison, M. B. Appell, Y. C. Kim, K. T. Leo, H. Kwon, M. Sista, N. M. Anders, A. Hemingway, S. V. K. Rompicharla, I. Pitha, D. J. Zack, J. Hanes, M. P. Cummings, L. M. Ensign <br/>
 *<a href="https://doi.org/10.1016/j.jconrel.2023.08.058" target="_blank">Journal of Controlled Release (2023)</a>.*
 [<a href="{{base.url}}/files/Hsueh_Chou_2023_2.pdf" target="_blank">PDF</a>] 
-[<a href="{{base.url}}/files/Hsueh_Chou_2023_2.bib" target="_blank">BibTeX</a>] <details><summary>details</summary>
+[<a href="{{base.url}}/files/Hsueh_Chou_2023_2.bib" target="_blank">BibTeX</a>] <details>
 hello world</details>
 
 Programs
 ======
 
 1. *Implementing a renderer from scratch*<br/>
-Done in the summer visit in the University of Alberta. *<a href="https://github.com/Zysun2002/Renderer-Alberta" target="_blank">link</a>.*<details><summary>details</summary>
+Done in the summer visit in the University of Alberta. *<a href="https://github.com/Zysun2002/Renderer-Alberta" target="_blank">link</a>.*<details>
 hello world</details>
 
 
