@@ -18,7 +18,7 @@ Publications
 
 1. *From Incomplete Coarse-Grained to Complete Fine-Grained: A Two-Stage Framework for Spatiotemporal Data Reconstruction* <br/>
 **Ziyu Sun**, Haoyang Su, En Wang, Funing Yang, Yongjian Yang, Wenbin Liu <br/>
-*<a href="https://www.nature.com/articles/s41540-024-00365-1" target="_blank">Preprints</a>.*
+*<a href="https://www.nature.com/articles/s41540-024-00365-1" target="_blank">Preprint</a>.*
 [<a href="{{base.url}}/files/Chou_2024_1.pdf" target="_blank">PDF</a>] 
 [<a href="{{base.url}}/files/Chou_2024_1.bib" target="_blank">BibTeX</a>] 
 
