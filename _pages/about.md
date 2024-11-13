@@ -26,9 +26,9 @@ Boming Zhao, Yuan Li, **Ziyu Sun**, Lin Zeng, Yujun Shen, Rui Ma, Yinda Zhang, H
 *<a href="https://dl.acm.org/doi/abs/10.1145/3641519.3657417" target="_blank">Siggraph 2024</a>.*
 [<a href="{{base.url}}/files/GaussianPrediction.pdf" target="_blank">PDF</a>] 
 [<a href="{{base.url}}/files/GaussianPrediction.bib" target="_blank">BibTeX</a>] <details>
-
-  This project marks my first exploration into 3D vision, where I gained foundational research experience by collaborating with outstanding PhD students. In this work, we propose a more compact 3D Gaussian Splatting (3DGS) representation for dynamic scenes based on key points. We achieved an exciting task, which we call future synthesis: predicting the future movements of dynamic objects and generating renderings from arbitrary perspectives. My responsibilities included constructing the framework for the extrapolation network and assisting with the training of the reconstruction networks.   </details>
 <img src="{{base.url}}/files/GSPrediction_pipeline.png" alt="Converted PDF as Image" width="500"><br/>
+  This project marks my first exploration into 3D vision, where I gained foundational research experience by collaborating with outstanding PhD students. In this work, we propose a more compact 3D Gaussian Splatting (3DGS) representation for dynamic scenes based on key points. We achieved an exciting task, which we call future synthesis: predicting the future movements of dynamic objects and generating renderings from arbitrary perspectives. My responsibilities included constructing the framework for the extrapolation network and assisting with the training of the reconstruction networks.</details>
+
 2. *From Incomplete Coarse-Grained to Complete Fine-Grained: A Two-Stage Framework for Spatiotemporal Data Reconstruction* <br/>
 **Ziyu Sun**, Haoyang Su, En Wang, Funing Yang, Yongjian Yang, Wenbin Liu <br/>
 *<a href="https://arxiv.org/abs/2410.05323" target="_blank">Preprint</a>.*
