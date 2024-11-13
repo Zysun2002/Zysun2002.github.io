@@ -17,6 +17,9 @@ During my undergraduate studies, I have been fortunate to collaborate with Profe
 
 My current research interest involves computer graphics and 3D vision.
 
+News
+======
+
 Publications
 ======
 
@@ -51,8 +54,7 @@ Done in the summer visit in the University of Alberta. *<a href="https://github.
 hello world</details>
 
 
-News
-======
+
 
 
 
