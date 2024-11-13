@@ -50,7 +50,7 @@ Projects
 
 1. *Implementing a renderer from scratch*<br/></details>
 <img src="{{base.url}}/files/pumpkin.gif" alt="Converted PDF as Image" width="350"><img src="{{base.url}}/files/balls.png" alt="Converted PDF as Image" width="350"><br/>
-Done in the summer visit in the University of Alberta. *[<a href="https://github.com/Zysun2002/Renderer-Alberta" target="_blank">link</a>]*<details>The renderer features two pipelines: one based on rasterization and the other on ray tracing. It also includes optimizations such as ambient occlusion mapping and shadow mapping. Writing codes to translate elegant mathematical concepts to visually appealing images always excites me.</details>
+Done in the summer visit in the University of Alberta. *[<a href="https://github.com/Zysun2002/Renderer-Alberta" target="_blank">link</a>]*The renderer features two pipelines: one based on rasterization and the other on ray tracing. It also includes optimizations such as ambient occlusion mapping and shadow mapping. Writing codes to translate elegant mathematical concepts to visually appealing images always excites me.</details>
 
 
 
