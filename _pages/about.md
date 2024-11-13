@@ -20,7 +20,7 @@ Publications
 **Ziyu Sun**, Haoyang Su, En Wang, Funing Yang, Yongjian Yang, Wenbin Liu <br/>
 *<a href="https://arxiv.org/abs/2410.05323" target="_blank">Preprint</a>.*
 [<a href="{{base.url}}/files/DiffRecon.pdf" target="_blank">PDF</a>] 
-[<a href="{{base.url}}/files/Chou_2024_1.bib" target="_blank">BibTeX</a>] 
+[<a href="{{base.url}}/files/DiffRecon.bib" target="_blank">BibTeX</a>] 
 
 
 1. *Application of advanced machine learning strategies for biomedical research.* <br/>
