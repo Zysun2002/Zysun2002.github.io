@@ -32,7 +32,7 @@ Boming Zhao, Yuan Li, **Ziyu Sun**, Lin Zeng, Yujun Shen, Rui Ma, Yinda Zhang, H
 *<a href="https://arxiv.org/abs/2410.05323" target="_blank">Preprint</a>.*
 [<a href="{{base.url}}/files/DiffRecon.pdf" target="_blank">PDF</a>] 
 [<a href="{{base.url}}/files/DiffRecon.bib" target="_blank">BibTeX</a>]<details>
-<img src="{{base.url}}/files/DiffRecon_pipeline.png" alt="Converted PDF as Image" width="350"><img src="{{base.url}}/files/DiffRecon_pipeline.png" alt="Converted PDF as Image" width="350"><br/>
+<img src="{{base.url}}/files/DiffRecon_task.png" alt="Converted PDF as Image" width="350"><img src="{{base.url}}/files/DiffRecon_pipeline.png" alt="Converted PDF as Image" width="350"><br/>
 This work focuses on enhancing spatial continuity in data mining. Our key contribution is the introduction of a novel task called "Spatiotemporal Data Reconstruction," which leverages concepts from computer vision to infer a complete, fine-grained spatiotemporal map from incomplete, coarse-grained observations. We also propose a two-stage generative model that effectively captures spatiotemporal characteristics, leading to state-of-the-art (SOTA) performance. It is worth noting that this work is part of a series with *Toward Time-Continuous Data Inference in Sparse Urban CrowdSensing*, as both aim to achieve more precise (finer-grained in this work) modeling of real-world spatiotemporal data, with this work emphasizing the spatial perspective.</details>
 
 3. *Toward Time-Continuous Data Inference in Sparse Urban CrowdSensing* <br/>
@@ -40,7 +40,7 @@ This work focuses on enhancing spatial continuity in data mining. Our key contri
 *<a href="https://arxiv.org/abs/2408.16027" target="_blank">Preprint</a>.*
 [<a href="{{base.url}}/files/time-dmf.pdf" target="_blank">PDF</a>] 
 [<a href="{{base.url}}/files/time-dmf.bib" target="_blank">BibTeX</a>] <details>
-<img src="{{base.url}}/files/DiffRecon_pipeline.png" alt="Converted PDF as Image" width="350"><img src="{{base.url}}/files/DiffRecon_pipeline.png" alt="Converted PDF as Image" width="350"><br/>
+<img src="{{base.url}}/files/time-dmf_task.png" alt="Converted PDF as Image" width="350"><img src="{{base.url}}/files/time-dmf_pipeline.png" alt="Converted PDF as Image" width="350"><br/>
 This work focuses on enhancing temporal continuity in data mining. Our key observation is that existing approaches typically employ a "time-discrete" preprocessing step before applying their algorithms, which can introduce inaccuracies. For example, nearly all existing methods slice the timeline into discrete time units and aggregate data within each unit, disregarding the precise arrival times of the data. In our research, we first propose a fine-grained adaptation for time-discrete solutions and then optimize it into a time-continuous version. Notably, this work is part of a series with *From Incomplete Coarse-Grained to Complete Fine-Grained: A Two-Stage Framework for Spatiotemporal Data Reconstruction*, both aiming to achieve more precise modeling of real-world scenarios from a temporal perspective, with a particular emphasis on continuity in this study.</details>
 
 Programs
