@@ -51,7 +51,7 @@ Projects
 
 #### Computer graphics related
 
-1. *Implementing a renderer from scratch* <br/>
+1. *rasterization and ray-tracing from scratch* <br/>
 Finished during my summer visit to the University of Alberta 
 *[<a href="https://github.com/Zysun2002/Renderer-Alberta" target="_blank">Project Link</a>.]*<details>
 <img src="{{base.url}}/files/pumpkin.gif" alt="Converted PDF as Image" width="200"><img src="{{base.url}}/files/balls.png" alt="Converted PDF as Image" width="356"><br/>
