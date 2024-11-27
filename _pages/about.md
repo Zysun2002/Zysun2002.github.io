@@ -15,7 +15,7 @@ Hi! :wave: I am a fourth-year undergraduate in the Tang Ao-qing Honors Program i
 
 During my undergraduate studies, I have been fortunate to collaborate with Professor **[Wenbin Liu](https://ccst.jlu.edu.cn/info/1209/18150.htm)** and Professor **[Rui Ma](https://ruim-jlu.github.io/)** at **Jilin University**, focusing on spatiotemporal data mining and 3D vision, respectively. I also gained valuable experience as a visiting student under the supervision of Professor **[Zhaopeng Cui](https://zhpcui.github.io/)** at **Zhejiang University**, where I worked on 3D vision. Additionally, I completed two academic visits to the **University of Alberta**, where I focused on computer graphics, lasting one month and three months, respectively.
 
-:key: My current research interest involves **computer graphics** and **3D vision**.
+:key: My current research interest involves **computer graphics**, **3D vision** and **Cuda programming**.
 
 Publications
 ======
@@ -51,7 +51,7 @@ Projects
 
 #### Computer graphics related
 
-1. *rasterization and ray-tracing from scratch* <br/>
+1. *cuda-accelerated rasterization and ray-tracing from scratch* <br/>
 Finished during my summer visit to the University of Alberta 
 *[<a href="https://github.com/Zysun2002/Renderer-Alberta" target="_blank">Project Link</a>.]*<details>
 <img src="{{base.url}}/files/pumpkin.gif" alt="Converted PDF as Image" width="200"><img src="{{base.url}}/files/balls.png" alt="Converted PDF as Image" width="356"><br/>
