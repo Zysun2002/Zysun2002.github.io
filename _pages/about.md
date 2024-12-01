@@ -54,7 +54,7 @@ Projects
 1. *CUDA-Accelerated Rasterization and Ray-Tracing from Scratch* <br/>
 Finished during my summer visit to the University of Alberta 
 *[<a href="https://github.com/Zysun2002/Renderer-Alberta" target="_blank">Project Link</a>.]*<details>
-<img src="{{base.url}}/files/pumpkin.gif" alt="Converted PDF as Image" width="200"><img src="{{base.url}}/files/balls.png" alt="Converted PDF as Image" width="356"><br/>
+<img src="{{base.url}}/files/pumpkin.gif" alt="Converted PDF as Image" width="200"><img src="{{base.url}}/files/balls.png" alt="Converted PDF as Image" width="400"><br/>
 The renderer features two pipelines: one based on **rasterization** and the other on **ray tracing**. It also includes optimizations such as **ambient occlusion mapping** and **shadow mappin**g. I also achieved over **100x rendering speedup** through parallel computation using CUDA on ray tracing pipeline. Writing codes to translate elegant mathematical concepts to visually appealing images always excites me.</details>
 
 #### Others
