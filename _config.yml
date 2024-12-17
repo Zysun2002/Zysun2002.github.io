@@ -16,6 +16,8 @@ url                      : https://Zysun2002.github.io # the base hostname & pro
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "academicpages/academicpages.github.io"
 
+google_analytics: G-BZXES4M3Z0
+
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
 #               Additional customization can be done by editing /_includes/author-profile.html
