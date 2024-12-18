@@ -6,9 +6,6 @@
 
 <link href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ base_path }}/feed.xml{% endif %}" type="application/atom+xml" rel="alternate" title="{{ site.title }} Feed">
 
-{% if site.google_analytics and jekyll.environment == 'production' %}
-    {% include google_analytics.html %}
-{% endif %}
 
 <!-- http://t.co/dKP3o1e -->
 <meta name="HandheldFriendly" content="True">
@@ -19,8 +16,8 @@
   document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
 </script>
 
-{% if jekyll.environment == 'production' and site.google_analytics %}
-{% include google-analytics.html %}
+{% if site.google_analytics and jekyll.environment == 'production' %}
+    {% include google-analytics.html %}
 {% endif %}
 
 <!-- For all browsers -->
