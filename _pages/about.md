@@ -27,7 +27,7 @@ Boming Zhao, Yuan Li, **Ziyu Sun**, Lin Zeng, Yujun Shen, Rui Ma, Yinda Zhang, H
 <img src="{{base.url}}/files/GSPrediction_task.png" alt="Converted PDF as Image" width="350">
 <img src="{{base.url}}/files/GSPrediction_pipeline.png" alt="Converted PDF as Image" width="350"><br/>
   In this work, we propose a **more compact 3D Gaussian Splatting (3DGS) representation** for dynamic scenes based on key points. With this representation, we achieved an exciting task, which we call **future synthesis**: predicting the future movements of dynamic objects and generating renderings from arbitrary perspectives.</details>
-  
+
 2. *From Incomplete Coarse-Grained to Complete Fine-Grained: A Two-Stage Framework for Spatiotemporal Data Reconstruction* <br/>
 **Ziyu Sun**, Haoyang Su, En Wang, Funing Yang, Yongjian Yang, Wenbin Liu <br/>
 *<a href="https://arxiv.org/abs/2410.05323" target="_blank">Preprint</a>.*
@@ -42,7 +42,7 @@ This is the second work in our **"Fine-Grained Spatiotemporal Sensing"** series,
 [<a href="{{base.url}}/files/time-dmf.pdf" target="_blank">PDF</a>] 
 [<a href="{{base.url}}/files/time-dmf.bib" target="_blank">BibTeX</a>]<details>
 <img src="{{base.url}}/files/time-dmf_task.png" alt="Converted PDF as Image" width="350"><img src="{{base.url}}/files/time-dmf_pipeline.png" alt="Converted PDF as Image" width="350"><br/>
-This is the first work in our **"Fine-Grained Spatiotemporal Sensing"** series, where we focus on enhancing the temporal granularity of perceptual data, and even directly modeling continuous-time representations. Our key observation is that existing approaches often rely on "**time-discrete**" preprocessing steps before applying their algorithms, which can lead to inaccuracies. Most existing methods divide the timeline into discrete intervals and aggregate data within each unit, assuming data remains static within these intervals. In our research, we first adapt existing time-discrete solutions to a **fine-grained approach** by slicing the timeline into the smallest possible units for alignment with prior work. We then elevate this approach into a **time-continuous** model that accurately represents data along a continuous timeline. </details>
+This is the first work in our **"Fine-Grained Spatiotemporal Sensing"** series, where we focus on enhancing the temporal granularity of perceptual data, and even directly modeling continuous-time representations. Our key observation is that existing approaches often rely on "**time-discrete**" preprocessing steps before applying their algorithms, which can lead to inaccuracies. Most existing methods divide the timeline into discrete intervals and aggregate data within each unit, assuming data remains static within these intervals. In our research, we first adapt existing time-discrete solutions to a **fine-grained approach** by slicing the timeline into the smallest possible units for alignment with prior work. We then elevate this approach into a **time-continuous** model that accurately represents data along a continuous timeline.</details>
 
 
 Projects
