@@ -11,7 +11,7 @@ redirect_from:
 About me
 ======
 
-Hi! :wave: I am an incoming PhD-track student in computer science at UBC, working under the supervision of **[Alla Sheffer](https://www.cs.ubc.ca/~sheffa/students.html)**. I am excited to explore research topics in **computer graphics** and **geometry**. 
+Hi! :wave: I am an incoming PhD-track student in computer science at UBC, working under the supervision of **[Alla Sheffer](https://www.cs.ubc.ca/~sheffa)**. I am excited to explore research topics in **computer graphics** and **geometry**. 
 
 I graduated from the Tang Ao-Qing Honors Program at Jilin University, where I worked closely with Professors **[Wenbin Liu](https://ccst.jlu.edu.cn/info/1209/18150.htm)** and **[Rui Ma](https://ruim-jlu.github.io/)**. I was also fortunate to intern at Zhejiang University with **[Zhaopeng Cui](https://zhpcui.github.io/)**, as well as at the University of Alberta.
 
