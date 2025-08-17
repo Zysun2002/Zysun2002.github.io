@@ -23,7 +23,7 @@ google_analytics: G-BZXES4M3Z0
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "avatar.jpg"
+  avatar           : "avatar_.jpg"
   name             : "Ziyu Sun(Sky, 孙子昱)"
   pronouns         : # example: "she/her"  
   bio              : "incoming PhD-track student at the Univeristy of British Columbia"
