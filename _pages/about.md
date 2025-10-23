@@ -11,7 +11,7 @@ redirect_from:
 About me
 ======
 
-Hi! :wave: I am an incoming PhD-track student in computer science at UBC, working under the supervision of **[Alla Sheffer](https://www.cs.ubc.ca/~sheffa)**. I am excited to explore research topics in **computer graphics** and **geometry**. 
+Hi! :wave: I am currently a PhD-track student in computer science at UBC, working under the supervision of **[Alla Sheffer](https://www.cs.ubc.ca/~sheffa)**. I am excited to explore research topics in **computer graphics** and **geometry**. 
 
 I graduated from the Tang Ao-Qing Honors Program at Jilin University, where I worked closely with Professors **[Wenbin Liu](https://ccst.jlu.edu.cn/info/1209/18150.htm)** and **[Rui Ma](https://ruim-jlu.github.io/)**. I was also fortunate to intern at Zhejiang University with **[Zhaopeng Cui](https://zhpcui.github.io/)**, as well as at the University of Alberta.
 
@@ -28,7 +28,7 @@ Boming Zhao, Yuan Li, **Ziyu Sun**, Lin Zeng, Yujun Shen, Rui Ma, Yinda Zhang, H
 <img src="{{base.url}}/files/GSPrediction_pipeline.png" alt="Converted PDF as Image" width="350"><br/>
   In this work, we propose a **more compact 3D Gaussian Splatting (3DGS) representation** for dynamic scenes based on key points. With this representation, we achieved an exciting task, which we call **future synthesis**: predicting the future movements of dynamic objects and generating renderings from arbitrary perspectives.</details>
 
-2. *From Incomplete Coarse-Grained to Complete Fine-Grained: A Two-Stage Framework for Spatiotemporal Data Reconstruction* <br/>
+1. *From Incomplete Coarse-Grained to Complete Fine-Grained: A Two-Stage Framework for Spatiotemporal Data Reconstruction* <br/>
 **Ziyu Sun**, Haoyang Su, En Wang, Funing Yang, Yongjian Yang, Wenbin Liu <br/>
 *<a href="https://arxiv.org/abs/2410.05323" target="_blank">Preprint</a>.*
 [<a href="{{base.url}}/files/DiffRecon.pdf" target="_blank">PDF</a>] 
@@ -36,7 +36,7 @@ Boming Zhao, Yuan Li, **Ziyu Sun**, Lin Zeng, Yujun Shen, Rui Ma, Yinda Zhang, H
 <img src="{{base.url}}/files/DiffRecon_task.png" alt="Converted PDF as Image" width="350"><img src="{{base.url}}/files/DiffRecon_pipeline.png" alt="Converted PDF as Image" width="350"><br/>
 This is the second work in our **"Fine-Grained Spatiotemporal Sensing"** series, where we focus on improving the spatial granularity of city data.Our key contribution is the introduction of a novel task called "**Spatiotemporal Data Reconstruction**," which leverages concepts from computer vision to infer a complete, fine-grained spatiotemporal map from incomplete, coarse-grained observations. We also propose a **two-stage diffusion model** that effectively captures spatiotemporal characteristics, leading to state-of-the-art performance.</details>
 
-3. *Toward Time-Continuous Data Inference in Sparse Urban CrowdSensing* <br/>
+1. *Toward Time-Continuous Data Inference in Sparse Urban CrowdSensing* <br/>
 **Ziyu Sun**, Haoyang Su, Hanqi Sun, En Wang, Wenbin Liu <br/>
 *<a href="https://arxiv.org/abs/2408.16027" target="_blank">Preprint</a>.*
 [<a href="{{base.url}}/files/time-dmf.pdf" target="_blank">PDF</a>] 
