@@ -56,6 +56,10 @@ Finished during my internship the University of Alberta
 The renderer features two pipelines: one based on **rasterization** and the other on **ray tracing**. It also includes optimizations such as **ambient occlusion mapping** and **shadow mappin**g. I also achieved over **100x rendering speedup** through parallel computation using CUDA on ray tracing pipeline. Writing codes to translate elegant mathematical concepts to visually appealing images always excites me.</details>
 
 
+TA
+======
+CPSC 427: Video Game Programming, UBC
+
 <!-- CV -->
 <!-- ====== -->
 <!-- My CV is attached [<a href="{{base.url}}/files/cv.pdf" target="_blank">here</a>]. -->
