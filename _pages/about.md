@@ -13,8 +13,7 @@ About me
 
 Hi! :wave: I am currently a PhD-track student in computer science at UBC, working under the supervision of **[Alla Sheffer](https://www.cs.ubc.ca/~sheffa)**. I am excited to explore research topics in **computer graphics** and **geometry**. 
 
-I graduated from the Tang Ao-Qing Honors Program at Jilin University, where I worked closely with Professors **[Wenbin Liu](https://ccst.jlu.edu.cn/info/1209/18150.htm)** and **[Rui Ma](https://ruim-jlu.github.io/)**. I was also fortunate to intern at Zhejiang University with **[Zhaopeng Cui](https://zhpcui.github.io/)**, as well as at the University of Alberta.
-
+I graduated from the Tang Ao-Qing Honors Program at Jilin University, where I had the opportunity to explore various research areas, including computer graphics, computer vision, and data mining, through internships at Zhejiang University and the University of Alberta.
 
 Publications
 ======
@@ -56,13 +55,6 @@ Finished during my internship the University of Alberta
 <img src="{{base.url}}/files/pumpkin.gif" alt="Converted PDF as Image" width="200"><img src="{{base.url}}/files/balls.png" alt="Converted PDF as Image" width="400"><br/>
 The renderer features two pipelines: one based on **rasterization** and the other on **ray tracing**. It also includes optimizations such as **ambient occlusion mapping** and **shadow mappin**g. I also achieved over **100x rendering speedup** through parallel computation using CUDA on ray tracing pipeline. Writing codes to translate elegant mathematical concepts to visually appealing images always excites me.</details>
 
-#### Others
-
-1. *Compile2024-Simple-sysy-Compiler*
-*[<a href="https://github.com/Zysun2002/Compile2024-Simple-sysy-Compiler" target="_blank">Project Link</a>.]*
-
-2. *Distributed-Software-Development-between-JLU-and-UTAD*
-*[<a href="https://github.com/Zysun2002/Distributed-Software-Development-2024" target="_blank">Project Link</a>.]*
 
 <!-- CV -->
 <!-- ====== -->
