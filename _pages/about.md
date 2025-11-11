@@ -48,8 +48,6 @@ This is the first work in our **"Fine-Grained Spatiotemporal Sensing"** series, 
 Projects
 ======
 
-#### Rendering
-
 1. *CUDA-Accelerated Rasterization and Ray-Tracing from Scratch* <br/>
 Finished during my internship the University of Alberta 
 *[<a href="https://github.com/Zysun2002/Renderer-Alberta" target="_blank">Project Link</a>.]*<details>
