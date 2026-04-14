@@ -54,7 +54,8 @@ The renderer features two pipelines: one based on **rasterization** and the othe
 
 TA
 ======
-1. CPSC 427: Video Game Programming, UBC
+1. CPSC 427 2025 Winter: Video Game Programming, UBC
+2. CPSC 427 2026 Spring: Video Game Programming, UBC
 
 <!-- CV -->
 <!-- ====== -->
