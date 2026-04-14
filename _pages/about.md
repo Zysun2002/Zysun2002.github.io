@@ -11,7 +11,7 @@ redirect_from:
 About me
 ======
 
-Hi! :wave: I am currently a PhD-track  Master student in computer science at UBC, working under the supervision of **[Alla Sheffer](https://www.cs.ubc.ca/~sheffa). I am excited to explore research topics in **computer graphics** and **geometry**. 
+Hi! :wave: I am currently a Master student (PhD-track) in computer science at UBC, working under the supervision of **[Alla Sheffer](https://www.cs.ubc.ca/~sheffa). I am excited to explore research topics in **computer graphics** and **geometry**. 
 
 I graduated from the Tang Ao-Qing Honors Program at Jilin University, where I had the opportunity to explore various research areas, including computer graphics, computer vision, and data mining, through internships at Zhejiang University and the University of Alberta.
 
