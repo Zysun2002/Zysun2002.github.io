@@ -41,7 +41,8 @@ Hao Du, Wenbin Liu, **Ziyu Sun**, Haoyang Su, En Wang, Yuanbo Xu <br/>
 [<a href="{{base.url}}/files/time-dmf.pdf" target="_blank">PDF</a>] 
 [<a href="{{base.url}}/files/time-dmf.bib" target="_blank">BibTeX</a>]<details> -->
 *<a> AAAI</a>*<details>
-<img src="{{base.url}}/files/time-dmf_task.png" alt="Converted PDF as Image" width="350"><img src="{{base.url}}/files/time-dmf_pipeline_updated.png" alt="Converted PDF as Image" width="280"><br/>
+<img src="{{base.url}}/files/time-dmf_task.png" alt="Converted PDF as Image" width="350"><img src="{{base.url}}/files/time-dmf_pipeline_updated.png" alt="Converted PDF as Image" width="280"></details>
+
 
 Projects
 ======
