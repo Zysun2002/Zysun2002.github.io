@@ -42,8 +42,6 @@ Hao Du, Wenbin Liu, **Ziyu Sun**, Haoyang Su, En Wang, Yuanbo Xu <br/>
 <img src="{{base.url}}/files/time-dmf_task.png" alt="Converted PDF as Image" width="350"><img src="{{base.url}}/files/time-dmf_pipeline_updated.png" alt="Converted PDF as Image" width="280"></details>
 
 
-<!--  
-
 TA
 ======
 1. CPSC 427 2025 Winter: Video Game Programming, UBC
