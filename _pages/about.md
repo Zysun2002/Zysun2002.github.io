@@ -22,7 +22,7 @@ Publications
 Boming Zhao, Yuan Li, **Ziyu Sun**, Lin Zeng, Yujun Shen, Rui Ma, Yinda Zhang, Hujun Bao, Zhaopeng Cui <br/>
 *<a href="https://dl.acm.org/doi/abs/10.1145/3641519.3657417" target="_blank">Siggraph</a>.*
 [<a href="{{base.url}}/files/GaussianPrediction.pdf" target="_blank">PDF</a>] 
-[<a href="{{base.url}}/files/GaussianPrediction.bib" target="_blank">BibTeX</a>] <details>
+[<a href="{{base.url}}/files/GaussianPrediction.bib" target="_blank">BibTeX</a>] <details><summary>Details</summary>
 <img src="{{base.url}}/files/GSPrediction_task.png" alt="Converted PDF as Image" width="350">
 <img src="{{base.url}}/files/GSPrediction_pipeline.png" alt="Converted PDF as Image" width="350"></details>
 
@@ -30,7 +30,7 @@ Boming Zhao, Yuan Li, **Ziyu Sun**, Lin Zeng, Yujun Shen, Rui Ma, Yinda Zhang, H
 **Ziyu Sun**, Haoyang Su, En Wang, Funing Yang, Yongjian Yang, Wenbin Liu <br/>
 *<a href="https://arxiv.org/abs/2410.05323" target="_blank">Preprint</a>.*
 [<a href="{{base.url}}/files/DiffRecon.pdf" target="_blank">PDF</a>] 
-[<a href="{{base.url}}/files/DiffRecon.bib" target="_blank">BibTeX</a>]<details>
+[<a href="{{base.url}}/files/DiffRecon.bib" target="_blank">BibTeX</a>]<details><summary>Details</summary>
 <img src="{{base.url}}/files/DiffRecon_task.png" alt="Converted PDF as Image" width="350"><img src="{{base.url}}/files/DiffRecon_pipeline.png" alt="Converted PDF as Image" width="350"></details>
 
 1. *Toward Time-Continuous Data Inference in Sparse Urban CrowdSensing* <br/>
@@ -38,19 +38,11 @@ Hao Du, Wenbin Liu, **Ziyu Sun**, Haoyang Su, En Wang, Yuanbo Xu <br/>
 <!-- *<a href="https://arxiv.org/abs/2408.16027" target="_blank">Preprint</a>.*
 [<a href="{{base.url}}/files/time-dmf.pdf" target="_blank">PDF</a>] 
 [<a href="{{base.url}}/files/time-dmf.bib" target="_blank">BibTeX</a>]<details> -->
-*<a> AAAI</a>*<details>
+*<a> AAAI</a>*<details><summary>Details</summary>
 <img src="{{base.url}}/files/time-dmf_task.png" alt="Converted PDF as Image" width="350"><img src="{{base.url}}/files/time-dmf_pipeline_updated.png" alt="Converted PDF as Image" width="280"></details>
 
 
-<!-- Projects
-======
-
-1. *CUDA-Accelerated Rasterization and Ray-Tracing from Scratch* <br/>
-Finished during my internship the University of Alberta 
-*[<a href="https://github.com/Zysun2002/Renderer-Alberta" target="_blank">Project Link</a>.]*<details>
-<img src="{{base.url}}/files/pumpkin.gif" alt="Converted PDF as Image" width="200"><img src="{{base.url}}/files/balls.png" alt="Converted PDF as Image" width="400"><br/>
-The renderer features two pipelines: one based on **rasterization** and the other on **ray tracing**. It also includes optimizations such as **ambient occlusion mapping** and **shadow mappin**g. I also achieved over **100x rendering speedup** through parallel computation using CUDA on ray tracing pipeline. Writing codes to translate elegant mathematical concepts to visually appealing images always excites me.</details> -->
-
+<!--  
 
 TA
 ======
