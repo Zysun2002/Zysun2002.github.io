@@ -20,26 +20,15 @@ Publications
 
 1. *GaussianPrediction: Dynamic 3D Gaussian Prediction for Motion Extrapolation and Free View Synthesis* <br/>
 Boming Zhao, Yuan Li, **Ziyu Sun**, Lin Zeng, Yujun Shen, Rui Ma, Yinda Zhang, Hujun Bao, Zhaopeng Cui <br/>
-*<a href="https://dl.acm.org/doi/abs/10.1145/3641519.3657417" target="_blank">Siggraph</a>.*
-[<a href="{{base.url}}/files/GaussianPrediction.pdf" target="_blank">PDF</a>] 
-[<a href="{{base.url}}/files/GaussianPrediction.bib" target="_blank">BibTeX</a>] <details><summary>Details</summary>
-<img src="{{base.url}}/files/GSPrediction_task.png" alt="Converted PDF as Image" width="350">
-<img src="{{base.url}}/files/GSPrediction_pipeline.png" alt="Converted PDF as Image" width="350"></details>
+
 
 1. *From Incomplete Coarse-Grained to Complete Fine-Grained: A Two-Stage Framework for Spatiotemporal Data Reconstruction* <br/>
 **Ziyu Sun**, Haoyang Su, En Wang, Funing Yang, Yongjian Yang, Wenbin Liu <br/>
-*<a href="https://arxiv.org/abs/2410.05323" target="_blank">Preprint</a>.*
-[<a href="{{base.url}}/files/DiffRecon.pdf" target="_blank">PDF</a>] 
-[<a href="{{base.url}}/files/DiffRecon.bib" target="_blank">BibTeX</a>]<details><summary>Details</summary>
-<img src="{{base.url}}/files/DiffRecon_task.png" alt="Converted PDF as Image" width="350"><img src="{{base.url}}/files/DiffRecon_pipeline.png" alt="Converted PDF as Image" width="350"></details>
+
 
 1. *Toward Time-Continuous Data Inference in Sparse Urban CrowdSensing* <br/>
 Hao Du, Wenbin Liu, **Ziyu Sun**, Haoyang Su, En Wang, Yuanbo Xu <br/>
-<!-- *<a href="https://arxiv.org/abs/2408.16027" target="_blank">Preprint</a>.*
-[<a href="{{base.url}}/files/time-dmf.pdf" target="_blank">PDF</a>] 
-[<a href="{{base.url}}/files/time-dmf.bib" target="_blank">BibTeX</a>]<details> -->
-*<a> AAAI</a>*<details><summary>Details</summary>
-<img src="{{base.url}}/files/time-dmf_task.png" alt="Converted PDF as Image" width="350"><img src="{{base.url}}/files/time-dmf_pipeline_updated.png" alt="Converted PDF as Image" width="280"></details>
+
 
 
 TA
